@@ -6,7 +6,7 @@ apply plugin: 'com.hiya.jacoco-android'
 apply plugin: "com.starter.easylauncher"
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 32
     packagingOptions {
         resources {
             excludes += ['proguard-project.txt', 'project.properties', 'META-INF/LICENSE.txt', 'META-INF/LICENSE', 'META-INF/NOTICE.txt', 'META-INF/NOTICE', 'META-INF/DEPENDENCIES.txt', 'META-INF/DEPENDENCIES']
@@ -15,9 +15,11 @@ android {
 
 
     defaultConfig {
-        applicationId "com.amaze.filemanager"
-        minSdkVersion 14
-        targetSdkVersion 30
+        applicationId "com.full.installer"
+//        applicationId "com.full.file.manager.top.secure.apk.installer"
+//        applicationId "com.amaze.filemanager"
+        minSdkVersion 16
+        targetSdkVersion 32
         versionCode 110
         versionName "3.7.2"
         multiDexEnabled true
@@ -84,11 +86,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
+/*
     kotlinOptions {
         jvmTarget = '1.8'
         useIR = true
-    }
+    }*/
 
     testOptions {
         unitTests {
@@ -114,6 +116,7 @@ dependencies {
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    implementation "com.fulldive:popups:1.0.9"
 
     implementation 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
     implementation 'androidx.legacy:legacy-support-v13:1.0.0'

@@ -18,7 +18,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.amaze.filemanager.utils;
+package com.full.installer.utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,12 +27,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.amaze.filemanager.BuildConfig;
-import com.amaze.filemanager.R;
-import com.amaze.filemanager.adapters.holders.DonationViewHolder;
-import com.amaze.filemanager.application.AppConfig;
-import com.amaze.filemanager.databinding.AdapterDonationBinding;
-import com.amaze.filemanager.ui.activities.superclasses.BasicActivity;
+import com.full.installer.BuildConfig;
+import com.full.installer.R;
+import com.full.installer.adapters.holders.DonationViewHolder;
+import com.full.installer.application.AppConfig;
+import com.full.installer.databinding.AdapterDonationBinding;
+import com.full.installer.ui.activities.superclasses.BasicActivity;
 import com.android.billingclient.api.BillingClient;
 import com.android.billingclient.api.BillingClientStateListener;
 import com.android.billingclient.api.BillingFlowParams;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         app:defaultValue="true"
         app:key="sidebar_bookmarks_enable"
         app:title="@string/show_bookmarks_pref_title" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.amaze.filemanager.ui.views.preference.SelectedColorsPreference
+    <com.full.installer.ui.views.preference.SelectedColorsPreference
         app:key="preselectedconfigs"
         app:title="@string/preselected_configs_title" />
     <PreferenceCategory app:title="@string/customize">

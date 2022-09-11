@@ -9,7 +9,7 @@
               android:paddingRight="24dp"
               android:paddingStart="24dp">
 
-    <com.amaze.filemanager.ui.views.WarnableTextInputLayout
+    <com.full.installer.ui.views.WarnableTextInputLayout
         android:id="@+id/text_input1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,9 +21,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:inputType="text"/>
-    </com.amaze.filemanager.ui.views.WarnableTextInputLayout>
+    </com.full.installer.ui.views.WarnableTextInputLayout>
 
-    <com.amaze.filemanager.ui.views.WarnableTextInputLayout
+    <com.full.installer.ui.views.WarnableTextInputLayout
         android:id="@+id/text_input2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,6 +35,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:inputType="text"/>
-    </com.amaze.filemanager.ui.views.WarnableTextInputLayout>
+    </com.full.installer.ui.views.WarnableTextInputLayout>
 
 </LinearLayout>

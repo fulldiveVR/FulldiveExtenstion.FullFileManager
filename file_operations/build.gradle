@@ -40,15 +40,15 @@ android {
     }
 
     externalNativeBuild {
-        cmake {
+        /*cmake {
             path file('src/main/c/CMakeLists.txt')
             version '3.18.1'
-        }
+        }*/
     }
 
-    kotlinOptions {
+   /* kotlinOptions {
         useIR = true
-    }
+    }*/
 }
 
 dependencies {

@@ -21,7 +21,9 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.amaze.filemanager">
+    package="com.full.installer">
+<!--    package="com.amaze.filemanager">-->
+    <!--    package="com.full.file.manager.top.secure.apk.installer">-->
 
     <permission android:name="${applicationId}.permission.CONTROL_FTP_SERVER"
         android:protectionLevel="dangerous" />
@@ -61,7 +63,8 @@
             android:launchMode="singleInstance"
             android:name=".ui.activities.MainActivity"
             android:theme="@style/appCompatBlack"
-            android:configChanges="uiMode" >
+            android:configChanges="uiMode"
+            android:exported="true">
 
             <intent-filter android:label="@string/appbar_name">
                 <action android:name="android.intent.action.MAIN" />
@@ -134,7 +137,8 @@
             android:configChanges="orientation|screenSize|uiMode"
             android:label="@string/setting"
             android:name=".ui.activities.PreferencesActivity"
-            android:theme="@style/appCompatBlack">
+            android:theme="@style/appCompatBlack"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -145,7 +149,8 @@
             android:label="@string/textreader"
             android:name=".ui.activities.texteditor.TextEditorActivity"
             android:configChanges="uiMode"
-            android:theme="@style/appCompatBlack">
+            android:theme="@style/appCompatBlack"
+            android:exported="true">
             <intent-filter
                 tools:ignore="AppLinkUrlError"
                 android:label="Amaze Text Editor">
@@ -163,7 +168,8 @@
             android:name=".ui.activities.DatabaseViewerActivity"
             android:theme="@style/appCompatBlack"
             android:configChanges="uiMode"
-            android:screenOrientation="locked">
+            android:screenOrientation="locked"
+            android:exported="true">
             <intent-filter
                 tools:ignore="AppLinkUrlError"
                 android:label="Amaze Database Reader">
@@ -280,7 +286,8 @@
         <service android:name=".asynchronous.services.ftp.FtpTileService"
             android:icon="@drawable/ic_ftp_dark"
             android:label="@string/ftp"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+            android:exported="true">
             <intent-filter>
                 <action
                     android:name="android.service.quicksettings.action.QS_TILE" />

@@ -2,28 +2,28 @@
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:defaultValue="true"
         app:key="savepaths"
         app:summary="@string/save_path_summary"
         app:title="@string/save_paths" />
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:defaultValue="false"
         app:key="typeablepaths"
         app:summary="@string/typeable_paths_summary"
         app:title="@string/typeable_paths_title" />
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:defaultValue="false"
         app:key="texteditor_newstack"
         app:summary="@string/preference_newstack_summary"
         app:title="@string/preference_newstack_title" />
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:defaultValue="true"
@@ -44,13 +44,13 @@
         app:title="@string/archive_extract_folder"></Preference>
     <PreferenceCategory android:title="@string/advanced_search">
 
-        <com.amaze.filemanager.ui.views.preference.CheckBox
+        <com.full.installer.ui.views.preference.CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:key="regex"
             app:summary="@string/regular_expression_summary"
             app:title="@string/regular_expression" />
-        <com.amaze.filemanager.ui.views.preference.CheckBox
+        <com.full.installer.ui.views.preference.CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:key="matches"
@@ -58,12 +58,12 @@
             app:title="@string/match_content" />
     </PreferenceCategory>
     <PreferenceCategory app:title="@string/advanced">
-        <com.amaze.filemanager.ui.views.preference.CheckBox
+        <com.full.installer.ui.views.preference.CheckBox
             app:defaultValue="false"
             app:key="legacyListing"
             app:summary="@string/legacy_listing_summary"
             app:title="@string/legacy_listing_title" />
-        <com.amaze.filemanager.ui.views.preference.CheckBox
+        <com.full.installer.ui.views.preference.CheckBox
             app:defaultValue="false"
             app:key="rootmode"
             app:summary="@string/root_mode_summary"

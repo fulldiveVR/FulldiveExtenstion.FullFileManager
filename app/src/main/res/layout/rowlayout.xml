@@ -119,7 +119,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true">
 
-        <com.amaze.filemanager.ui.views.ThemedTextView
+        <com.full.installer.ui.views.ThemedTextView
             android:id="@+id/firstline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

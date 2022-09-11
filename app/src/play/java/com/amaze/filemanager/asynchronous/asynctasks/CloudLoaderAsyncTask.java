@@ -18,21 +18,21 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.amaze.filemanager.asynchronous.asynctasks;
+package com.full.installer.asynchronous.asynctasks;
 
 import java.lang.ref.WeakReference;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.amaze.filemanager.R;
-import com.amaze.filemanager.application.AppConfig;
-import com.amaze.filemanager.database.CloudHandler;
-import com.amaze.filemanager.database.models.explorer.CloudEntry;
-import com.amaze.filemanager.fileoperations.exceptions.CloudPluginException;
-import com.amaze.filemanager.fileoperations.filesystem.OpenMode;
-import com.amaze.filemanager.ui.activities.MainActivity;
-import com.amaze.filemanager.utils.DataUtils;
+import com.full.installer.R;
+import com.full.installer.application.AppConfig;
+import com.full.installer.database.CloudHandler;
+import com.full.installer.database.models.explorer.CloudEntry;
+import com.full.installer.fileoperations.exceptions.CloudPluginException;
+import com.full.installer.fileoperations.filesystem.OpenMode;
+import com.full.installer.ui.activities.MainActivity;
+import com.full.installer.utils.DataUtils;
 import com.cloudrail.si.CloudRail;
 import com.cloudrail.si.exceptions.AuthenticationException;
 import com.cloudrail.si.exceptions.ParseException;

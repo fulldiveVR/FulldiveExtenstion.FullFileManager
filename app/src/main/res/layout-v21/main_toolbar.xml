@@ -57,7 +57,7 @@
             android:id="@+id/indicator_layout"
             android:layout_height="wrap_content">
 
-            <com.amaze.filemanager.ui.views.Indicator
+            <com.full.installer.ui.views.Indicator
                 android:id="@+id/indicator"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
                 app:sdOverlayLayout="@id/fabs_overlay_layout"
                 app:layout_behavior="@string/speeddial_scrolling_view_snackbar_behavior" />
 
-        <com.amaze.filemanager.ui.views.drawer.GestureExclusionView
+        <com.full.installer.ui.views.drawer.GestureExclusionView
             android:id="@+id/placeholder_drag_start"
             android:layout_width="@dimen/material_generic"
             android:layout_height="match_parent"
@@ -100,7 +100,7 @@
             />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <com.amaze.filemanager.ui.views.drawer.CustomNavigationView
+    <com.full.installer.ui.views.drawer.CustomNavigationView
         android:id="@+id/navigation"
         android:layout_width="@dimen/drawer_width"
         android:layout_height="match_parent"

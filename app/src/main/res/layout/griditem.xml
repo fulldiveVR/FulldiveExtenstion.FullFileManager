@@ -98,7 +98,7 @@
                 android:orientation="horizontal">
 
 
-                <com.amaze.filemanager.ui.views.ThemedTextView
+                <com.full.installer.ui.views.ThemedTextView
                     android:id="@+id/firstline"
                     style="@android:style/TextAppearance.Medium"
                     android:layout_width="match_parent"

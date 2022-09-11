@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         app:defaultValue="true"
         app:key="sidebar_quickaccess_enable"
         app:title="@string/show_quick_access_pref_title" />

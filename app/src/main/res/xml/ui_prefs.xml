@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         app:defaultValue="true"
         app:key="showThumbs"
         app:summary="@string/thumb_summary"
         app:title="@string/thumb" />
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         app:defaultValue="false"
         app:key="showHidden"
         app:title="@string/hidden" />
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         app:defaultValue="true"
         app:key="showLastModified"
         app:summary="@string/lastModifiedSummary"
         app:title="@string/lastModifiedPref" />
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         app:defaultValue="true"
         app:key="showFileSize"
         app:summary="@string/size_pref_summary"
         app:title="@string/size_pref" />
-    <com.amaze.filemanager.ui.views.preference.CheckBox
+    <com.full.installer.ui.views.preference.CheckBox
         app:defaultValue="false"
         app:key="goBack_checkbox"
         app:summary="@string/back_summary"
@@ -39,7 +39,7 @@
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/advanced">
 
-        <com.amaze.filemanager.ui.views.preference.CheckBox
+        <com.full.installer.ui.views.preference.CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:defaultValue="false"

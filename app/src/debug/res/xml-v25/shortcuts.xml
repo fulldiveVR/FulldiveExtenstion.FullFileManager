@@ -9,8 +9,8 @@
         android:shortcutShortLabel="@string/quick">
         <intent
             android:action="com.amaze.filemanager.openQuickAccess"
-            android:targetClass="com.amaze.filemanager.ui.activities.MainActivity"
-            android:targetPackage="com.amaze.filemanager.debug" />
+            android:targetClass="com.full.installer.ui.activities.MainActivity"
+            android:targetPackage="com.full.installer.debug" />
     </shortcut>
 
     <shortcut
@@ -21,8 +21,8 @@
         android:shortcutShortLabel="@string/recent">
         <intent
             android:action="com.amaze.filemanager.openRecent"
-            android:targetClass="com.amaze.filemanager.ui.activities.MainActivity"
-            android:targetPackage="com.amaze.filemanager.debug" />
+            android:targetClass="com.full.installer.ui.activities.MainActivity"
+            android:targetPackage="com.full.installer.debug" />
     </shortcut>
 
     <shortcut
@@ -33,8 +33,8 @@
         android:shortcutShortLabel="@string/apps">
         <intent
             android:action="com.amaze.filemanager.openAppManager"
-            android:targetClass="com.amaze.filemanager.ui.activities.MainActivity"
-            android:targetPackage="com.amaze.filemanager.debug" />
+            android:targetClass="com.full.installer.ui.activities.MainActivity"
+            android:targetPackage="com.full.installer.debug" />
     </shortcut>
 
     <shortcut
@@ -45,8 +45,8 @@
         android:shortcutShortLabel="@string/ftp">
         <intent
             android:action="com.amaze.filemanager.openFTPServer"
-            android:targetClass="com.amaze.filemanager.ui.activities.MainActivity"
-            android:targetPackage="com.amaze.filemanager.debug" />
+            android:targetClass="com.full.installer.ui.activities.MainActivity"
+            android:targetPackage="com.full.installer.debug" />
     </shortcut>
 
 </shortcuts>

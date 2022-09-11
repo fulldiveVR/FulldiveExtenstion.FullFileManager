@@ -17,7 +17,7 @@
         android:visibility="gone"
         />
 
-    <com.amaze.filemanager.ui.views.FastScroller
+    <com.full.installer.ui.views.FastScroller
         android:id="@+id/fastscroll"
         android:orientation="vertical"
         android:layout_width="wrap_content"
