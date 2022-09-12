@@ -72,6 +72,7 @@ class PrefsFragment : BasePrefsFragment() {
                 DonationManager.purchaseFromSettings(
                     activity,
                     onPurchased = {
+
                         PopupManager().showDonationSuccess(activity)//TODO:XXX
                     }
                 )

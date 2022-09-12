@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Xestor de ficheros Amaze</string>
+    <string name="app_name">Xestor de ficheros Full File Manager</string>
     <string name="drawer_open">Abrir caxón de navegación</string>
     <string name="drawer_close">Zarrar caxón de navegación</string>
     <string name="icon">iconu</string>
@@ -149,7 +149,7 @@
     <string name="miscellaneous">Miscelaina</string>
     <string name="root_pref_summary">Amuesa los permisos de ficheros y carpetes</string>
     <string name="root_pref">Amosar permisos</string>
-    <string name="about_amaze_file_manager_label">Tocante al xestor de ficheros Amaze</string>
+    <string name="about_amaze_file_manager_label">Tocante al xestor de ficheros Full File Manager</string>
     <string name="version">Versión</string>
     <string name="rate">Valora l\'aplicación</string>
     <string name="feedback">Unviar feedback</string>
@@ -287,7 +287,7 @@ inestable\'l preséu.\\n¿Siguir?</string>
     <string name="invalid">%s non válidu</string>
     <string name="ftp_notif_starting">Aniciándose\'l sirvidor FTP</string>
     <string name="ftp_notif_starting_title">Sirvidor FTP</string>
-    <string name="ftp_notif_title">Sirvidor Amaze FTP n\'execución</string>
+    <string name="ftp_notif_title">Sirvidor Full File Manager FTP n\'execución</string>
     <string name="ftp_notif_text">en %s</string>
     <string name="ftp_notif_stop_server">PARAR</string>
     <string name="ftp_port_edit_menu_title">Puertu FTP</string>
@@ -299,7 +299,7 @@ inestable\'l preséu.\\n¿Siguir?</string>
     <string name="report_bugs_title">Informar fallos</string>
     <string name="report_bugs_summary">Informa fallos o pidi carauterístiques nueves</string>
     <string name="translate_title">Tornar</string>
-    <string name="translate_summary">Torna Amaze a la to llingua</string>
+    <string name="translate_summary">Torna Full File Manager a la to llingua</string>
     <string name="paypal_copy_message">Copióse la ID de Paypal nel cartafueyu</string>
     <string name="searching_devices">Guetando preseos</string>
     <string name="use_custom_ip">Usar IP personalizada</string>

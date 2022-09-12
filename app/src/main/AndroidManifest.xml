@@ -153,7 +153,7 @@
             android:exported="true">
             <intent-filter
                 tools:ignore="AppLinkUrlError"
-                android:label="Amaze Text Editor">
+                android:label="Full File Manager Text Editor">
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/*" />
@@ -172,7 +172,7 @@
             android:exported="true">
             <intent-filter
                 tools:ignore="AppLinkUrlError"
-                android:label="Amaze Database Reader">
+                android:label="Full File Manager Database Reader">
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="db/*" />

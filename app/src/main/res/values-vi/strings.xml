@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze File Manager</string>
+    <string name="app_name">Full File Manager</string>
     <string name="drawer_open">Mở ngăn kéo điều hướng</string>
     <string name="drawer_close">Thoát ngăn kéo điều hướng</string>
     <string name="icon">biểu tượng</string>
@@ -158,7 +158,7 @@
     <string name="miscellaneous">Chuyên sâu</string>
     <string name="root_pref_summary">Hiện cấp phép cho tệp và thư mục</string>
     <string name="root_pref">Hiện cấp phép</string>
-    <string name="about_amaze_file_manager_label">Về Amaze File Manager</string>
+    <string name="about_amaze_file_manager_label">Về Full File Manager File Manager</string>
     <string name="version">Phiên bản</string>
     <string name="rate">Xếp hạng ứng dụng</string>
     <string name="feedback">Gửi phản hồi</string>
@@ -299,7 +299,7 @@
     <string name="invalid">Không hợp lệ %s</string>
     <string name="ftp_notif_starting">Máy chủ FTP đang bắt đầu</string>
     <string name="ftp_notif_starting_title">Máy chủ FTP</string>
-    <string name="ftp_notif_title">Máy chủ FTP Amaze đang chạy</string>
+    <string name="ftp_notif_title">Máy chủ FTP Full File Manager đang chạy</string>
     <string name="ftp_notif_text">tại %s</string>
     <string name="ftp_notif_stop_server">Ngừng</string>
     <string name="ftp_port_edit_menu_title">Chọn công FTP</string>
@@ -313,7 +313,7 @@
     <string name="source_summary">Xem mã nguồn của chúng tôi trên GitHub</string>
     <string name="report_bugs_summary">Báo lỗi hoặc yêu cầu tính năng mới</string>
     <string name="translate_title">Dịch</string>
-    <string name="translate_summary">Dịch Amaze sang ngôn ngữ của bạn</string>
+    <string name="translate_summary">Dịch Full File Manager sang ngôn ngữ của bạn</string>
     <string name="paypal_copy_message">Đã chép ID Paypal vào clipboard</string>
     <string name="searching_devices">Đang tìm kiếm thiết bị</string>
     <string name="use_custom_ip">Dùng IP tuỳ chỉnh</string>
@@ -529,9 +529,9 @@
     <string name="edit_bookmark">Sửa dấu trang</string>
     <string name="question_delete_bookmark">Xoá dấu trang</string>
 
-    <string name="cloud_error_plugin">Không tìm thấy plugin Amaze Cloud. Vui lòng tải xuống từ Cửa hàng Play.</string>
+    <string name="cloud_error_plugin">Không tìm thấy plugin Full File Manager Cloud. Vui lòng tải xuống từ Cửa hàng Play.</string>
     <string name="cloud_error_failed_restart">Không thể tải kết nối.
-        Vui lòng mở Amaze Cloud một lần.</string>
+        Vui lòng mở Full File Manager Cloud một lần.</string>
     <string name="cloud_remove">Bạn có muốn xóa kết nối đám mây không?</string>
     <string name="cloud_fail_authenticate">Không thể xác thực</string>
     <string name="cloud_share_copied">Đã sao chép liên kết có thể chia sẻ vào khay nhớ tạm</string>
@@ -568,10 +568,10 @@
     <string name="preference_newstack_summary">Cho phép bạn mở các tệp trong các tác vụ riêng biệt. Truy cập chúng từ màn hình gần đây của hệ thống.</string>
     <string name="developers">Những nhà phát triển</string>
     <string name="no_bitcoin_app">Vui lòng cài đặt một ứng dụng Ví Bitcoin</string>
-    <string name="channel_name_normal">Thông báo từ Amaze</string>
-    <string name="channel_description_normal">Thông báo từ Amaze File Manager</string>
-    <string name="channel_name_ftp">Máy chủ FTP Amaze</string>
-    <string name="channel_description_ftp">Thông báo từ Máy chủ FTP Amaze File Manager </string>
+    <string name="channel_name_normal">Thông báo từ Full File Manager</string>
+    <string name="channel_description_normal">Thông báo từ Full File Manager</string>
+    <string name="channel_name_ftp">Máy chủ FTP Full File Manager</string>
+    <string name="channel_description_ftp">Thông báo từ Máy chủ FTP Full File Manager </string>
 
     <string name="processing">Đang xử lí&#8230;</string>
     <string name="failed_no_connection">Không tải được tệp. Vui lòng kiểm tra kết nối của bạn.</string>
@@ -588,7 +588,7 @@
     <string name="ssh_authentication_failure_key">Đăng nhập thất bại: Không thể xác thực với tên người dùng và khóa cá nhân được cung cấp.</string>
     <string name="ssh_connect_failed">Không thể kết nối với %1$s:%2$d: %3$s</string>
     <string name="ssh_connect_failed_host_key_changed_title">CẢNH BÁO: NHẬN DIỆN TRANG WEB TỪ XA ĐÃ THAY ĐỔI!</string>
-    <string name="ssh_connect_failed_host_key_changed_message">CÓ THỂ MỘT AI ĐÓ ĐANG LÀM GÌ ĐÓ BẨN THỈU!\n\nMột người nào đó có thể đang nghe trộm bạn ngay bây giờ (tấn công man-in-the-middle)! Cũng có thể là khóa máy chủ vừa được thay đổi. Tệp tham chiếu cho khóa công khai do máy chủ từ xa gửi không khớp với tệp được lưu trữ trong Amaze.\n\nVui lòng liên hệ với quản trị viên hệ thống của bạn hoặc thiết lập kết nối mới để tiếp tục kết nối với máy chủ.</string>
+    <string name="ssh_connect_failed_host_key_changed_message">CÓ THỂ MỘT AI ĐÓ ĐANG LÀM GÌ ĐÓ BẨN THỈU!\n\nMột người nào đó có thể đang nghe trộm bạn ngay bây giờ (tấn công man-in-the-middle)! Cũng có thể là khóa máy chủ vừa được thay đổi. Tệp tham chiếu cho khóa công khai do máy chủ từ xa gửi không khớp với tệp được lưu trữ trong Full File Manager.\n\nVui lòng liên hệ với quản trị viên hệ thống của bạn hoặc thiết lập kết nối mới để tiếp tục kết nối với máy chủ.</string>
     <string name="ssh_key_prompt_passphrase">Vui lòng nhập cụm mật khẩu chính.</string>
     <string name="add_shortcut_not_supported_by_launcher">Tạo lối tắt không được hỗ trợ bởi trình khởi chạy của bạn.</string>
     
@@ -640,7 +640,7 @@
     <string name="close">Thoát</string>
     <string name="bookmark_exists">Dấu trang tồn tại</string>
     <string name="hide_media">Ẩn khỏi trình duyệt phương tiện</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">CÓ THỂ MỘT AI ĐÓ ĐANG LÀM GÌ ĐÓ BẨN THỈU!\n\nMột người nào đó có thể đang nghe trộm bạn ngay bây giờ (tấn công man-in-the-middle)! Cũng có thể là khóa máy chủ vừa được thay đổi. Vân tay cho khóa công khai do máy chủ từ xa gửi không khớp với vân tay được lưu trữ trong Amaze.\n\nBạn có thể tiếp tục cập nhật vân tay máy chủ hoặc hủy cập nhật cài đặt kết nối SSH.</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">CÓ THỂ MỘT AI ĐÓ ĐANG LÀM GÌ ĐÓ BẨN THỈU!\n\nMột người nào đó có thể đang nghe trộm bạn ngay bây giờ (tấn công man-in-the-middle)! Cũng có thể là khóa máy chủ vừa được thay đổi. Vân tay cho khóa công khai do máy chủ từ xa gửi không khớp với vân tay được lưu trữ trong Full File Manager.\n\nBạn có thể tiếp tục cập nhật vân tay máy chủ hoặc hủy cập nhật cài đặt kết nối SSH.</string>
     <string name="update_host_key">Cập nhật khóa máy chủ</string>
     <string name="cancel_recommended">Hủy (Khuyến khích)</string>
     <string name="failed_install_apk">Cài đặt thất bại</string>
@@ -700,10 +700,10 @@
     <string name="choose_operation">Chọn thao tác để thực hiện</string>
     <string name="remember">Nhớ cho lần sau</string>
     <string name="ftp_prompt_accept_first_start_saf_access_title">Cấp quyền truy cập SAF cho máy chủ FTP</string>
-    <string name="ftp_prompt_accept_first_start_saf_access">Vì đây là lần đầu tiên bạn chạy máy chủ FTP và bạn đang sử dụng bộ nhớ trong của thiết bị làm thư mục chia sẻ, vui lòng cho phép Amaze truy cập bộ nhớ bằng SAF.\n\n
+    <string name="ftp_prompt_accept_first_start_saf_access">Vì đây là lần đầu tiên bạn chạy máy chủ FTP và bạn đang sử dụng bộ nhớ trong của thiết bị làm thư mục chia sẻ, vui lòng cho phép Full File Manager truy cập bộ nhớ bằng SAF.\n\n
 
 Bạn chỉ cần làm điều này một lần cho đến lần tiếp theo bạn chọn một vị trí mới để chia sẻ.</string>
-    <string name="android_data_prompt_saf_access">Kể từ Android 10, Android đã áp đặt các hạn chế đối với một số thư mục nhất định và họ cần truy cập bằng Storage Access Framework.\n\nVui lòng cho phép Amaze truy cập vào thư mục từ trình quản lý tệp của hệ thống bằng cách nhấn vào \"Cho phép truy cập\".</string>
+    <string name="android_data_prompt_saf_access">Kể từ Android 10, Android đã áp đặt các hạn chế đối với một số thư mục nhất định và họ cần truy cập bằng Storage Access Framework.\n\nVui lòng cho phép Full File Manager truy cập vào thư mục từ trình quản lý tệp của hệ thống bằng cách nhấn vào \"Cho phép truy cập\".</string>
     <string name="android_data_prompt_saf_access_title">Cấp quyền truy cập SAF</string>
     <string name="ftp_preference_saf_filesystem_title">Sử dụng filesystem cũ</string>
     <string name="ftp_preference_saf_filesystem">Bật tính năng này để được hỗ trợ sử dụng bộ nhớ ngoài của thiết bị trên các phiên bản Android mới hơn</string>
@@ -711,7 +711,7 @@ Bạn chỉ cần làm điều này một lần cho đến lần tiếp theo b�
     <string name="compressed_explorer_fragment_error_open_uri">Lỗi khi mở URI \"%s\" để đọc.</string>
     <string name="error_empty_archive">\"%s\" là một tệp lưu trữ trống.</string>
     <string name="security_error">Tập tin không thể được mở bằng ứng dụng này</string>
-    <string name="cloud_drive_tooltip">Tạo một kết nối Google Drive™ để quản lý tệp từ trong Amaze File Manager.</string>
+    <string name="cloud_drive_tooltip">Tạo một kết nối Google Drive™ để quản lý tệp từ trong Full File Manager File Manager.</string>
     <string name="signin_with_google_title">Xác thực để sử dụng Google Drive™</string>
     <string name="show_system_apps">Hiện ứng dụng hệ thống</string>
     <string name="system_apps">Ứng dụng hệ thống</string>
@@ -721,8 +721,8 @@ Bạn chỉ cần làm điều này một lần cho đến lần tiếp theo b�
     <string name="select_by_date">Chọn theo ngày</string>
     <string name="select_similar">Chọn tương tự</string>
     <string name="error_fetching_google_play_product_list">Lỗi khi lấy danh sách sản phẩm từ Google Play.</string>
-    <string name="grant_all_files_permission"><html><body>Amaze cần quyền truy cập tất cả tệp để tiếp tục.
-        \nỞ màn hình tiếp theo, vui lòng chọn <b>Amaze</b> và chọn tuỳ chọn <b>Cho phép quản lý tất cả tệp</b>.
+    <string name="grant_all_files_permission"><html><body>Full File Manager cần quyền truy cập tất cả tệp để tiếp tục.
+        \nỞ màn hình tiếp theo, vui lòng chọn <b>Full File Manager</b> và chọn tuỳ chọn <b>Cho phép quản lý tất cả tệp</b>.
             \n\n<font color='#ff6347'><i>Việc huỷ hộp thoại này sẽ thoát ứng dụng.</i></font></body></html></string>
 </resources>
 

@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze ファイルマネージャー</string>
+    <string name="app_name">Full File Manager ファイルマネージャー</string>
     <string name="drawer_open">ナビゲーションドロワーを開く</string>
     <string name="drawer_close">ナビゲーションドロワーを閉じる</string>
     <string name="icon">アイコン</string>
@@ -158,7 +158,7 @@
     <string name="miscellaneous">その他</string>
     <string name="root_pref_summary">ファイルとフォルダーのアクセス許可を表示します</string>
     <string name="root_pref">アクセス許可を表示</string>
-    <string name="about_amaze_file_manager_label">Amaze ファイルマネージャーについて</string>
+    <string name="about_amaze_file_manager_label">Full File Manager ファイルマネージャーについて</string>
     <string name="version">バージョン</string>
     <string name="rate">アプリを評価</string>
     <string name="feedback">フィードバックを送信</string>
@@ -299,7 +299,7 @@
     <string name="invalid">無効な %s</string>
     <string name="ftp_notif_starting">FTP サーバーは開始しています</string>
     <string name="ftp_notif_starting_title">FTP サーバー</string>
-    <string name="ftp_notif_title">Amaze FTP サーバーは実行中</string>
+    <string name="ftp_notif_title">Full File Manager FTP サーバーは実行中</string>
     <string name="ftp_notif_text">%s に</string>
     <string name="ftp_notif_stop_server">停止</string>
     <string name="ftp_port_edit_menu_title">FTP ポートを選択</string>
@@ -313,7 +313,7 @@
     <string name="source_summary">GitHubでソースコードを見る</string>
     <string name="report_bugs_summary">バグを報告したり、新しい機能をリクエストします</string>
     <string name="translate_title">翻訳</string>
-    <string name="translate_summary">Amaze をお使いの言語に翻訳します</string>
+    <string name="translate_summary">Full File Manager をお使いの言語に翻訳します</string>
     <string name="paypal_copy_message">PayPal ID をクリップボードにコピーしました</string>
     <string name="searching_devices">デバイスの検索中</string>
     <string name="use_custom_ip">カスタム IP を使用する</string>
@@ -518,8 +518,8 @@ Wi-Fiに接続する必要があります。\n\n
     <string name="directory">フォルダ</string>
 
     <string name="show_bookmarks_pref">ブックマーク</string>
-    <string name="cloud_error_plugin">Amaze クラウドプラクインがありません。Play ストアでダウンロードしてください。</string>
-    <string name="cloud_error_failed_restart">接続をロードできません。Amaze クラウドプラクインを一度起動してください。</string>
+    <string name="cloud_error_plugin">Full File Manager クラウドプラクインがありません。Play ストアでダウンロードしてください。</string>
+    <string name="cloud_error_failed_restart">接続をロードできません。Full File Manager クラウドプラクインを一度起動してください。</string>
     <string name="cloud_remove">クラウド接続を削除する？</string>
     <string name="cloud_fail_authenticate">認證失敗</string>
     <string name="cloud_share_copied">共有リンクをクリップボードにコピーしました</string>
@@ -556,10 +556,10 @@ Wi-Fiに接続する必要があります。\n\n
     <string name="preference_newstack_summary">別にタスクでファイルを開けます。オーバービュー画面でアクセスする。</string>
     <string name="developers">デベロッパー</string>
     <string name="no_bitcoin_app">ビットコインウォレットアプリをインストールしてください</string>
-    <string name="channel_name_normal">Amaze 通知</string>
-    <string name="channel_description_normal">Amaze ファイルマネージャーの通知</string>
-    <string name="channel_name_ftp">Amaze FTP サーバー</string>
-    <string name="channel_description_ftp">Amaze ファイルマネージャー FTPサーバーの通知</string>
+    <string name="channel_name_normal">Full File Manager 通知</string>
+    <string name="channel_description_normal">Full File Manager ファイルマネージャーの通知</string>
+    <string name="channel_name_ftp">Full File Manager FTP サーバー</string>
+    <string name="channel_description_ftp">Full File Manager ファイルマネージャー FTPサーバーの通知</string>
 
     <string name="processing">処理中…</string>
     <string name="failed_no_connection">ファイルをロードできません。ネットワーク接続を確認してください。</string>
@@ -576,7 +576,7 @@ Wi-Fiに接続する必要があります。\n\n
     <string name="ssh_authentication_failure_key">ログインに失敗しました：指定されたユーザー名と秘密鍵で認証できません。</string>
     <string name="ssh_connect_failed">%1$s:%2$d に接続できません：%3$s</string>
     <string name="ssh_connect_failed_host_key_changed_title">警告: リモートホストのIDが変更されました!</string>
-    <string name="ssh_connect_failed_host_key_changed_message">誰かが変なことをしている可能性があります!\n\n誰かがあなたを盗聴している可能性があります (中間者攻撃)! ホスト鍵が変更された可能性もあります。 リモートホストから送信された公開鍵のフィンガープリントが、Amazeに保存されているものと一致しません。\n\nサーバーへの接続を続行するには、システム管理者に連絡するか、新しい接続を設定してください。</string>
+    <string name="ssh_connect_failed_host_key_changed_message">誰かが変なことをしている可能性があります!\n\n誰かがあなたを盗聴している可能性があります (中間者攻撃)! ホスト鍵が変更された可能性もあります。 リモートホストから送信された公開鍵のフィンガープリントが、Full File Managerに保存されているものと一致しません。\n\nサーバーへの接続を続行するには、システム管理者に連絡するか、新しい接続を設定してください。</string>
     <string name="ssh_key_prompt_passphrase">鍵のパスフレーズを入力ください。</string>
     <string name="add_shortcut_not_supported_by_launcher">ショートカットの作成はランチャーでサポートしておりません。</string>
     
@@ -628,7 +628,7 @@ Wi-Fiに接続する必要があります。\n\n
     <string name="close">閉じる</string>
     <string name="bookmark_exists">ブックマークは存在します</string>
     <string name="hide_media">メディアブラウザーから非表示</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">誰かが変なことをしている可能性があります!\n\n誰かがあなたを盗聴している可能性があります (中間者攻撃)! ホスト鍵が変更された可能性もあります。 リモートホストから送信された公開鍵のフィンガープリントが、Amazeに保存されているものと一致しません。\n\nホストのフィンガープリントを更新して続行するか、SSH接続設定の更新をキャンセルできます。</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">誰かが変なことをしている可能性があります!\n\n誰かがあなたを盗聴している可能性があります (中間者攻撃)! ホスト鍵が変更された可能性もあります。 リモートホストから送信された公開鍵のフィンガープリントが、Full File Managerに保存されているものと一致しません。\n\nホストのフィンガープリントを更新して続行するか、SSH接続設定の更新をキャンセルできます。</string>
     <string name="update_host_key">ホスト鍵の更新</string>
     <string name="cancel_recommended">キャンセル (推奨)</string>
     <string name="failed_install_apk">インストールに失敗しました</string>

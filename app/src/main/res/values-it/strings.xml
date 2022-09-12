@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze</string>
+    <string name="app_name">Full File Manager</string>
     <string name="drawer_open">Apri pannello di navigazione</string>
     <string name="drawer_close">Chiudi pannello di navigazione</string>
     <string name="icon">icona</string>
@@ -162,7 +162,7 @@ I cambiamenti saranno effettivi dopo il riavvio dell\'app
     <string name="miscellaneous">Varie</string>
     <string name="root_pref_summary">Mostra permessi di file e cartelle</string>
     <string name="root_pref">Mostra permessi</string>
-    <string name="about_amaze_file_manager_label">Informazioni su Amaze File Manager</string>
+    <string name="about_amaze_file_manager_label">Informazioni su Full File Manager File Manager</string>
     <string name="version">Versione</string>
     <string name="rate">Vota l\'app</string>
     <string name="feedback">Invia feedback</string>
@@ -305,7 +305,7 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="invalid">%s non valido</string>
     <string name="ftp_notif_starting">Server FTP in fase di avvio</string>
     <string name="ftp_notif_starting_title">Server FTP</string>
-    <string name="ftp_notif_title">Server FTP Amaze in esecuzione</string>
+    <string name="ftp_notif_title">Server FTP Full File Manager in esecuzione</string>
     <string name="ftp_notif_text">a %s</string>
     <string name="ftp_notif_stop_server">FERMA</string>
     <string name="ftp_port_edit_menu_title">Scegli la porta FTP</string>
@@ -319,7 +319,7 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="source_summary">Vedi il nostro codice sorgente su GitHub</string>
     <string name="report_bugs_summary">Segnala bug o richiedi nuove funzionalità</string>
     <string name="translate_title">Traduci</string>
-    <string name="translate_summary">Traduci Amaze nella tua lingua</string>
+    <string name="translate_summary">Traduci Full File Manager nella tua lingua</string>
     <string name="paypal_copy_message">ID PayPal copiato negli Appunti</string>
     <string name="searching_devices">Ricerca dispositivi in corso</string>
     <string name="use_custom_ip">Utilizza IP personalizzato</string>

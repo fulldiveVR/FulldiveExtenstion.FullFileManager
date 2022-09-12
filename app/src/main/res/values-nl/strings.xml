@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze-bestandsbeheerder</string>
+    <string name="app_name">Full File Manager-bestandsbeheerder</string>
     <string name="drawer_open">Navigatielade openen</string>
     <string name="drawer_close">Navigatielade sluiten</string>
     <string name="icon">pictogram</string>
@@ -149,7 +149,7 @@
     <string name="miscellaneous">Overig</string>
     <string name="root_pref_summary">Permissies van bestanden en mappen weergeven</string>
     <string name="root_pref">Permissies weergeven</string>
-    <string name="about_amaze_file_manager_label">Over Amaze-bestandsbeheerder</string>
+    <string name="about_amaze_file_manager_label">Over Full File Manager-bestandsbeheerder</string>
     <string name="version">Versie</string>
     <string name="rate">Beoordeel de app</string>
     <string name="feedback">Feedback versturen</string>
@@ -287,7 +287,7 @@ Anders wordt er naar een voorval gezocht.</string>
     <string name="invalid">Niet geldig %s</string>
     <string name="ftp_notif_starting">FTP server wordt gestart</string>
     <string name="ftp_notif_starting_title">FTP Server</string>
-    <string name="ftp_notif_title">Amaze FTP Server actief</string>
+    <string name="ftp_notif_title">Full File Manager FTP Server actief</string>
     <string name="ftp_notif_text">op %s</string>
     <string name="ftp_notif_stop_server">STOP</string>
     <string name="ftp_port_edit_menu_title">Kies FTP poort</string>
@@ -299,7 +299,7 @@ Anders wordt er naar een voorval gezocht.</string>
     <string name="report_bugs_title">Bugs melden</string>
     <string name="report_bugs_summary">Meld een bug of verzoek nieuwe functies</string>
     <string name="translate_title">Vertalen</string>
-    <string name="translate_summary">Amaze vertalen in uw eigen taal</string>
+    <string name="translate_summary">Full File Manager vertalen in uw eigen taal</string>
     <string name="easter_egg_title">Studiomodus</string>
     <string name="paypal_copy_message">PayPal Id gekopieerd naar klembord</string>
     <string name="searching_devices">Zoeken naar apparaten</string>

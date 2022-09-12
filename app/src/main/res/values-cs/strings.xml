@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze</string>
+    <string name="app_name">Full File Manager</string>
     <string name="drawer_open">Otevřít navigační lištu</string>
     <string name="drawer_close">Zavřít navigační lištu</string>
     <string name="icon">ikona</string>
@@ -152,7 +152,7 @@
     <string name="miscellaneous">Různé</string>
     <string name="root_pref_summary">Zobrazit oprávnění souborů a složek</string>
     <string name="root_pref">Zobrazit oprávnění</string>
-    <string name="about_amaze_file_manager_label">O správci souborů Amaze</string>
+    <string name="about_amaze_file_manager_label">O správci souborů Full File Manager</string>
     <string name="version">Verze</string>
     <string name="rate">Ohodnotit aplikaci</string>
     <string name="feedback">Odeslat zpětnou vazbu</string>
@@ -290,7 +290,7 @@
     <string name="invalid">Neplatné %s</string>
     <string name="ftp_notif_starting">Spouštění serveru FTP</string>
     <string name="ftp_notif_starting_title">FTP Server</string>
-    <string name="ftp_notif_title">FTP Server Amaze je spuštěn</string>
+    <string name="ftp_notif_title">FTP Server Full File Manager je spuštěn</string>
     <string name="ftp_notif_text">na %s</string>
     <string name="ftp_notif_stop_server">STOP</string>
     <string name="ftp_port_edit_menu_title">FTP Port</string>
@@ -302,7 +302,7 @@
     <string name="report_bugs_title">Ohlásit chybu</string>
     <string name="report_bugs_summary">Nahlásit chybu nebo požádat o nové funkce</string>
     <string name="translate_title">Přeložit</string>
-    <string name="translate_summary">Přeložte Amaze do vašeho jazyka</string>
+    <string name="translate_summary">Přeložte Full File Manager do vašeho jazyka</string>
     <string name="paypal_copy_message">Paypal ID bylo zkopírováno do schránky</string>
     <string name="searching_devices">Vyhledávání zařízení</string>
     <string name="use_custom_ip">Použít vlastní IP</string>
@@ -493,8 +493,8 @@
     <string name="directory">Adresář</string>
 
     <string name="show_bookmarks_pref">Záložky</string>
-    <string name="cloud_error_plugin">Amaze Cloud plugin nebyl nalezen. Stáhněte si ho z Obchodu Play.</string>
-    <string name="cloud_error_failed_restart">Nepodařilo se načíst připojení.         Prosím, otevřete jednou Amaze Cloud.</string>
+    <string name="cloud_error_plugin">Full File Manager Cloud plugin nebyl nalezen. Stáhněte si ho z Obchodu Play.</string>
+    <string name="cloud_error_failed_restart">Nepodařilo se načíst připojení.         Prosím, otevřete jednou Full File Manager Cloud.</string>
     <string name="cloud_remove">Chcete odstranit připojení ke cloudu?</string>
     <string name="cloud_fail_authenticate">Ověření se nezdařilo</string>
     <string name="cloud_share_copied">Sdílení odkazu bylo zkopírováno do schránky</string>

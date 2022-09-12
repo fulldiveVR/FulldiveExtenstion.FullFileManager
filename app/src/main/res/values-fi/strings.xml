@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze</string>
+    <string name="app_name">Full File Manager</string>
     <string name="drawer_open">Avaa navigointivalikko</string>
     <string name="drawer_close">Sulje navigointivalikko</string>
     <string name="icon">Ikoni</string>
@@ -148,7 +148,7 @@
     <string name="miscellaneous">Sekalaiset</string>
     <string name="root_pref_summary">Kansioiden ja tiedostojen oikeudet</string>
     <string name="root_pref">Näytä käyttöoikeudet</string>
-    <string name="about_amaze_file_manager_label">Tietoja Amaze-tiedostonhallinnasta</string>
+    <string name="about_amaze_file_manager_label">Tietoja Full File Manager-tiedostonhallinnasta</string>
     <string name="version">Versio</string>
     <string name="rate">Arvostele sovellus</string>
     <string name="feedback">Lähetä palautetta</string>
@@ -286,7 +286,7 @@
     <string name="invalid">Virheellinen %s</string>
     <string name="ftp_notif_starting">FTP-palvelin käynnistyy</string>
     <string name="ftp_notif_starting_title">FTP-palvelin</string>
-    <string name="ftp_notif_title">Amaze FTP-palvelin on käynnissä</string>
+    <string name="ftp_notif_title">Full File Manager FTP-palvelin on käynnissä</string>
     <string name="ftp_notif_text">%s</string>
     <string name="ftp_notif_stop_server">LOPETA</string>
     <string name="ftp_port_edit_menu_title">FTP-portti</string>
@@ -298,7 +298,7 @@
     <string name="report_bugs_title">Ilmoita virheestä</string>
     <string name="report_bugs_summary">Raportoi bugeja tai pyydä uusia ominaisuuksia</string>
     <string name="translate_title">Käännä</string>
-    <string name="translate_summary">Käännä Amaze omalle kielelle</string>
+    <string name="translate_summary">Käännä Full File Manager omalle kielelle</string>
     <string name="paypal_copy_message">PayPal-tunnus kopioitu leikepöydälle</string>
     <string name="searching_devices">Etsitään laitteita</string>
     <string name="use_custom_ip">Käytä mukautettu IP-osoitetta</string>
@@ -503,8 +503,8 @@
     <string name="directory">Hakemisto</string>
 
     <string name="show_bookmarks_pref">Kirjanmerkit</string>
-    <string name="cloud_error_plugin">Amaze laajennusta ei löytynyt, lataa Google Play Storesta.</string>
-    <string name="cloud_error_failed_restart">Yhteys epäonnistui.  Avaa Amaze Cloud kerran.</string>
+    <string name="cloud_error_plugin">Full File Manager laajennusta ei löytynyt, lataa Google Play Storesta.</string>
+    <string name="cloud_error_failed_restart">Yhteys epäonnistui.  Avaa Full File Manager Cloud kerran.</string>
     <string name="cloud_remove">Haluatko poisaa pilvi-yhteyden?</string>
     <string name="cloud_fail_authenticate">Autentikointi epäonnistui</string>
     <string name="cloud_share_copied">Jaettava linkki kopioitu leikepöydälle</string>

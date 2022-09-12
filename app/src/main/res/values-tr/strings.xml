@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze Dosya Yöneticisi</string>
+    <string name="app_name">Full File Manager Dosya Yöneticisi</string>
     <string name="drawer_open">Gezinme çekmecesini aç</string>
     <string name="drawer_close">Gezinme çekmecesini kapat</string>
     <string name="icon">Simge</string>
@@ -297,7 +297,7 @@ Devam etmek istiyor musunuz?\"</string>
     <string name="invalid">Geçersiz %s</string>
     <string name="ftp_notif_starting">FTP Sunucu başlatılıyor</string>
     <string name="ftp_notif_starting_title">FTP Sunucu</string>
-    <string name="ftp_notif_title">Amaze FTP Sunucu çalışıyor</string>
+    <string name="ftp_notif_title">Full File Manager FTP Sunucu çalışıyor</string>
     <string name="ftp_notif_text">%s adresinde</string>
     <string name="ftp_notif_stop_server">DUR</string>
     <string name="ftp_port_edit_menu_title">FTP bağlantı noktası</string>
@@ -311,7 +311,7 @@ Devam etmek istiyor musunuz?\"</string>
     <string name="source_summary">Kaynak kodunu GitHub üzerinde görüntüle</string>
     <string name="report_bugs_summary">Hata bildirimi veya yeni özellik isteği yapın</string>
     <string name="translate_title">Çeviri</string>
-    <string name="translate_summary">Amaze uygulamasını kendi dilinize çevirin</string>
+    <string name="translate_summary">Full File Manager uygulamasını kendi dilinize çevirin</string>
     <string name="paypal_copy_message">Paypal ID panoya kopyalandı</string>
     <string name="searching_devices">Cihazlar aranıyor</string>
     <string name="use_custom_ip">Özel IP kullan</string>
@@ -513,9 +513,9 @@ Kaldırmak için boş bırakın.</string>
     <string name="directory">Dizin</string>
 
     <string name="show_bookmarks_pref">Yer imleri</string>
-    <string name="cloud_error_plugin">Amaze Cloud eklentisi bulunamadı. Play Store dan indirin.</string>
+    <string name="cloud_error_plugin">Full File Manager Cloud eklentisi bulunamadı. Play Store dan indirin.</string>
     <string name="cloud_error_failed_restart">Bağlantı yüklenemedi.
-Önce Amaze Cloud u açın.</string>
+Önce Full File Manager Cloud u açın.</string>
     <string name="cloud_remove">Bulut bağlantısını kaldırmak istiyor musunuz ?</string>
     <string name="cloud_fail_authenticate">Kimlik doğrulaması başarısız oldu</string>
     <string name="cloud_share_copied">Paylaşılabilir bağlantı panoya kopyalandı</string>
@@ -550,10 +550,10 @@ Kaldırmak için boş bırakın.</string>
     <string name="preference_newstack_summary">Dosyaları ayrı görevler olarak açmanızı sağlar. Onlara son uygulamalarınız gibi erişebilirsiniz.</string>
     <string name="developers">Geliştiriciler</string>
     <string name="no_bitcoin_app">Lütfen bir Bitcoin cüzdan uygulaması yükleyin</string>
-    <string name="channel_name_normal">Amaze Bildirimler</string>
-    <string name="channel_description_normal">Amaze Dosya Yöneticisinin bildirimleri</string>
-    <string name="channel_name_ftp">Amaze FTP Sunucu</string>
-    <string name="channel_description_ftp">Amaze FTP Sunucunun bildirimleri</string>
+    <string name="channel_name_normal">Full File Manager Bildirimler</string>
+    <string name="channel_description_normal">Full File Manager Dosya Yöneticisinin bildirimleri</string>
+    <string name="channel_name_ftp">Full File Manager FTP Sunucu</string>
+    <string name="channel_description_ftp">Full File Manager FTP Sunucunun bildirimleri</string>
 
     <string name="processing">&#8230;İşleniyor</string>
     <string name="failed_no_connection">Dosya yüklemesi başarısız oldu. Lütfen bağlantınızı kontrol edin.</string>
@@ -571,7 +571,7 @@ Kaldırmak için boş bırakın.</string>
     <string name="ssh_connect_failed_host_key_changed_title">UYARI: UZAK ANA BİLGİSAYAR KİMLİĞİ DEĞİŞTİRİLDİ!</string>
     <string name="ssh_connect_failed_host_key_changed_message">BİRİNİN KÖTÜ BİR ŞEY YAPMASI MÜMKÜN!
 
-Şu anda biri sizi gizlice dinliyor olabilir (ortadaki adam saldırısı)! Ayrıca, ana bilgisayar anahtarının yeni değiştirilmiş olması da mümkündür. Uzak ana bilgisayar tarafından gönderilen genel anahtarın parmak izi, Amaze\'de saklananla eşleşmiyor.
+Şu anda biri sizi gizlice dinliyor olabilir (ortadaki adam saldırısı)! Ayrıca, ana bilgisayar anahtarının yeni değiştirilmiş olması da mümkündür. Uzak ana bilgisayar tarafından gönderilen genel anahtarın parmak izi, Full File Manager\'de saklananla eşleşmiyor.
 
 Sunucuya bağlanmaya devam etmek için lütfen sistem yöneticinize başvurun veya yeni bir bağlantı kurun.</string>
     <string name="add_shortcut_not_supported_by_launcher">Kısayol oluşturma başlatıcınız tarafından desteklenmiyor.</string>
@@ -623,7 +623,7 @@ Sunucuya bağlanmaya devam etmek için lütfen sistem yöneticinize başvurun ve
     <string name="hide_media">Medya tarayıcılarından gizle</string>
     <string name="ssh_connect_failed_host_key_changed_prompt">BİRİNİN KÖTÜ BİR ŞEY YAPMASI MÜMKÜN!
 
-Şu anda biri sizi gizlice dinliyor olabilir (ortadaki adam saldırısı)! Ayrıca, ana bilgisayar anahtarının yeni değiştirilmiş olması da mümkündür. Uzak ana bilgisayar tarafından gönderilen genel anahtarın parmak izi, Amaze\'de saklananla eşleşmiyor.
+Şu anda biri sizi gizlice dinliyor olabilir (ortadaki adam saldırısı)! Ayrıca, ana bilgisayar anahtarının yeni değiştirilmiş olması da mümkündür. Uzak ana bilgisayar tarafından gönderilen genel anahtarın parmak izi, Full File Manager\'de saklananla eşleşmiyor.
 
 Ana bilgisayar parmak izini güncellemeye devam edebilir veya SSH bağlantı ayarlarını güncellemeyi iptal edebilirsiniz.</string>
     <string name="update_host_key">Sahip Anahtarını Güncelleyin</string>

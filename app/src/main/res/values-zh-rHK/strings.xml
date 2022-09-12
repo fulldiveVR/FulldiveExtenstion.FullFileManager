@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Amaze 檔案管理器</string>
+    <string name="app_name">Full File Manager 檔案管理器</string>
     <string name="drawer_open">打開導航櫃桶</string>
     <string name="drawer_close">關閉導航櫃桶</string>
     <string name="icon">圖示</string>
@@ -217,7 +217,7 @@
     <string name="image">圖像</string>
     <string name="contributors">貢獻者</string>
     <string name="save_paths">記住路徑</string>
-    <string name="save_path_summary">當你開啟 Amaze 檔案管理器時，每個分頁將顯示你上次訪問的目錄</string>
+    <string name="save_path_summary">當你開啟 Full File Manager 檔案管理器時，每個分頁將顯示你上次訪問的目錄</string>
     <string name="select_intent">選擇</string>
     <string name="database">資料庫</string>
     <string name="colored_navigation">導航欄變色</string>
@@ -298,7 +298,7 @@
     <string name="invalid">不正確 %s</string>
     <string name="ftp_notif_starting">FTP 伺服器啟動中</string>
     <string name="ftp_notif_starting_title">FTP 伺服器</string>
-    <string name="ftp_notif_title">Amaze FTP 伺服器執行中</string>
+    <string name="ftp_notif_title">Full File Manager FTP 伺服器執行中</string>
     <string name="ftp_notif_text">在 %s</string>
     <string name="ftp_notif_stop_server">停止</string>
     <string name="ftp_port_edit_menu_title">選擇 FTP 埠號</string>
@@ -312,7 +312,7 @@
     <string name="source_summary">在 Github上檢視我們 app的原始碼</string>
     <string name="report_bugs_summary">回報問題或告訴我們您想要的新功能</string>
     <string name="translate_title">翻譯</string>
-    <string name="translate_summary">用您的語言翻譯 Amaze</string>
+    <string name="translate_summary">用您的語言翻譯 Full File Manager</string>
     <string name="paypal_copy_message">Paypal ID 已複製到剪貼簿</string>
     <string name="searching_devices">正在搜尋裝置</string>
     <string name="use_custom_ip">使用自訂的 IP</string>
@@ -472,8 +472,8 @@
     <string name="directory">目錄</string>
 
     <string name="show_bookmarks_pref">書籤</string>
-    <string name="cloud_error_plugin">找不到 Amaze Cloud 套件。請從 Play 商店中下載。</string>
-    <string name="cloud_error_failed_restart">載入連線失敗。請再開啟一次 Amaze Cloud。</string>
+    <string name="cloud_error_plugin">找不到 Full File Manager Cloud 套件。請從 Play 商店中下載。</string>
+    <string name="cloud_error_failed_restart">載入連線失敗。請再開啟一次 Full File Manager Cloud。</string>
     <string name="cloud_remove">您想要移除此雲端連線嗎？</string>
     <string name="cloud_fail_authenticate">身份驗證失敗</string>
     <string name="cloud_share_copied">分享用連結已複製到剪貼簿</string>
@@ -510,10 +510,10 @@
     <string name="preference_newstack_summary">可以新工作開啟檔案，它會出現在系統的總覽畫面。</string>
     <string name="developers">開發者</string>
     <string name="no_bitcoin_app">裝番個 Bitcoin銀包 app先啦</string>
-    <string name="channel_name_normal">Amaze通知</string>
-    <string name="channel_description_normal">來自 Amaze檔案管理器嘅通知</string>
-    <string name="channel_name_ftp">Amaze FTP伺服器</string>
-    <string name="channel_description_ftp">來自 Amaze FTP伺服器嘅通知</string>
+    <string name="channel_name_normal">Full File Manager通知</string>
+    <string name="channel_description_normal">來自 Full File Manager檔案管理器嘅通知</string>
+    <string name="channel_name_ftp">Full File Manager FTP伺服器</string>
+    <string name="channel_description_ftp">來自 Full File Manager FTP伺服器嘅通知</string>
 
     <string name="processing">處理中&#8230;</string>
     <string name="failed_no_connection">無法載入檔案。請檢查網絡連線。</string>
@@ -530,7 +530,7 @@
     <string name="ssh_authentication_failure_key">登入失敗：無法使用你俾嘅用戶名稱同私鑰登入。</string>
     <string name="ssh_connect_failed">駁唔到去 %1$s:%2$d：%3$s</string>
     <string name="ssh_connect_failed_host_key_changed_title">注意：伺服器身份變咗！</string>
-    <string name="ssh_connect_failed_host_key_changed_message">可能有人有不軌企圖！\n\n伺服器派出嚟公鑰嘅指紋同 Amaze記住嘅唔同。可能有人勾緊線（中間人攻擊）！不過都可能咁啱伺服器換咗條 key啫。\n\n請通知你嘅系統管理員，或者起過個新嘅連線設定駁去伺服器。</string>
+    <string name="ssh_connect_failed_host_key_changed_message">可能有人有不軌企圖！\n\n伺服器派出嚟公鑰嘅指紋同 Full File Manager記住嘅唔同。可能有人勾緊線（中間人攻擊）！不過都可能咁啱伺服器換咗條 key啫。\n\n請通知你嘅系統管理員，或者起過個新嘅連線設定駁去伺服器。</string>
     <string name="ssh_key_prompt_passphrase">請輸入私鑰密碼。</string>
     <string name="add_shortcut_not_supported_by_launcher">你個 launcher唔支援建立捷徑。</string>
     
@@ -563,13 +563,13 @@
     <string name="got_it">明白了！</string>
     <string name="encrypt_file_save_as">將加密檔案儲存為&#8230;</string>
     <string name="encrypt_folder_save_as">將加密檔案夾儲存為&#8230;</string>
-    <string name="encrypt_option_use_aze">使用 Amaze加密格式</string>
+    <string name="encrypt_option_use_aze">使用 Full File Manager加密格式</string>
     <string name="encrypt_option_use_aescrypt_desc"><![CDATA[
         <p>AESCrypt係基於 AES加密技術嘅開源檔案加密格式。佢可以喺任何平台上支援 AESCrypt嘅應用程式上解密。</p>
         <p><a href="https://www.aescrypt.com" target="_blank>AESCrypt 官方網站</a></p>
 ]]></string>
     <string name="encrypt_option_use_azecrypt_desc"><![CDATA[
-        <p>Amaze自有加密方式亦都係以 AES加密技術為基礎。但係同 AESCrypt格式唔同，用呢個方法加密嘅檔案只能喺番呢部機上解密。而且你唔可以剷走 Amaze架，甚至連更改 lock screen設定都唔得，否則就算你記得個密碼，個檔案都救唔番架啦。</p>
+        <p>Full File Manager自有加密方式亦都係以 AES加密技術為基礎。但係同 AESCrypt格式唔同，用呢個方法加密嘅檔案只能喺番呢部機上解密。而且你唔可以剷走 Full File Manager架，甚至連更改 lock screen設定都唔得，否則就算你記得個密碼，個檔案都救唔番架啦。</p>
     ]]></string>
     <string name="encrypt_file_must_end_with_aze">加密檔案一定要用“.aze”做檔案擴展名稱。</string>
     <string name="encrypt_file_must_end_with_aes">加密檔案一定要用“.aes”做檔案擴展名稱。</string>

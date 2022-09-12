@@ -19,7 +19,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     -->
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-  <string name="app_name">Amaze</string>
+  <string name="app_name">Full File Manager</string>
   <string name="drawer_open">Ouvrir le tiroir de navigation</string>
   <string name="drawer_close">Fermer le tiroir de navigation</string>
     <string name="icon">icône</string>
@@ -148,7 +148,7 @@
   <string name="miscellaneous">Divers</string>
   <string name="root_pref_summary">Afficher les permissions des fichiers et dossiers</string>
   <string name="root_pref">Afficher les Permissions</string>
-  <string name="about_amaze_file_manager_label">A propos d\'Amaze File Manager</string>
+  <string name="about_amaze_file_manager_label">A propos d\'Full File Manager File Manager</string>
   <string name="version">Version</string>
   <string name="rate">Noter l\'application</string>
   <string name="feedback">Envoyer votre avis</string>
@@ -298,7 +298,7 @@
   <string name="report_bugs_title">Signaler un bug</string>
   <string name="report_bugs_summary">Signaler un bug ou demander une nouvelle fonctionnalité</string>
   <string name="translate_title">Traduire</string>
-  <string name="translate_summary">Traduire Amaze dans votre langue</string>
+  <string name="translate_summary">Traduire Full File Manager dans votre langue</string>
   <string name="easter_egg_title">Mode Studio</string>
   <string name="paypal_copy_message">Id Paypal copié dans le presse-papiers</string>
   <string name="searching_devices">Recherche d\'appareils</string>
@@ -476,7 +476,7 @@
   <string name="show_quick_access_pref_title">Afficher l\'accès rapide</string>
   <string name="show_quick_access_pref">Accès rapide</string>
   <string name="directory">Répertoires</string>
-  <string name="cloud_error_plugin">Le plugin Amaze Cloud est introuvable. Télécharger le sur le Play Store.</string>
+  <string name="cloud_error_plugin">Le plugin Full File Manager Cloud est introuvable. Télécharger le sur le Play Store.</string>
   <string name="cloud_error_failed_restart">Échec de chargement de la connexion.         S’il vous plaît ouvrez Amaze Cloud une fois.</string>
   <string name="cloud_remove">Voulez-vous supprimer la connexion Cloud ?</string>
   <string name="cloud_fail_authenticate">Échec de l\'authentification</string>

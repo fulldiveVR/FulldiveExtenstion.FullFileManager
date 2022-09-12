@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Menedżer plików Amaze</string>
+    <string name="app_name">Menedżer plików Full File Manager</string>
     <string name="drawer_open">Otwórz pasek nawigacji</string>
     <string name="drawer_close">Zamknij pasek nawigacji</string>
     <string name="icon">ikona</string>
@@ -148,7 +148,7 @@
     <string name="miscellaneous">Różne</string>
     <string name="root_pref_summary">Wyświetla uprawnienia plików i katalogów</string>
     <string name="root_pref">Uprawnienia</string>
-    <string name="about_amaze_file_manager_label">O menedżerze plików Amaze</string>
+    <string name="about_amaze_file_manager_label">O menedżerze plików Full File Manager</string>
     <string name="version">Wersja</string>
     <string name="rate">Oceń aplikację</string>
     <string name="feedback">Wyślij opinię</string>
@@ -286,7 +286,7 @@
     <string name="invalid">Nieprawidłowa %s</string>
     <string name="ftp_notif_starting">Uruchamianie serwera FTP</string>
     <string name="ftp_notif_starting_title">Serwer FTP</string>
-    <string name="ftp_notif_title">Serwer Amaze FTP jest uruchomiony</string>
+    <string name="ftp_notif_title">Serwer Full File Manager FTP jest uruchomiony</string>
     <string name="ftp_notif_text">pod adresem: %s</string>
     <string name="ftp_notif_stop_server">ZATRZYMAJ</string>
     <string name="ftp_port_edit_menu_title">Wybierz port FTP</string>

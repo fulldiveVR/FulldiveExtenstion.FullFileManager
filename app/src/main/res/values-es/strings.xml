@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Administrador de Archivos Amaze</string>
+    <string name="app_name">Administrador de Archivos Full File Manager</string>
     <string name="drawer_open">Abrir panel de navegación</string>
     <string name="drawer_close">Cerrar panel de navegación</string>
     <string name="icon">icono</string>
@@ -158,7 +158,7 @@
     <string name="miscellaneous">Otros</string>
     <string name="root_pref_summary">Mostrar sus permisos sobre archivos y carpetas</string>
     <string name="root_pref">Mostrar permisos</string>
-    <string name="about_amaze_file_manager_label">Acerca de el Administrador de Archivos Amaze</string>
+    <string name="about_amaze_file_manager_label">Acerca de el Administrador de Archivos Full File Manager</string>
     <string name="version">Versión</string>
     <string name="rate">Calificar la aplicacion</string>
     <string name="feedback">Enviar Comentarios</string>
@@ -298,7 +298,7 @@
     <string name="invalid">Inválido%s</string>
     <string name="ftp_notif_starting">Se está iniciando el servidor FTP</string>
     <string name="ftp_notif_starting_title">Servidor FTP</string>
-    <string name="ftp_notif_title">Servidor FTP de Amaze funcionando</string>
+    <string name="ftp_notif_title">Servidor FTP de Full File Manager funcionando</string>
     <string name="ftp_notif_text">en %s</string>
     <string name="ftp_notif_stop_server">PARAR</string>
     <string name="ftp_port_edit_menu_title">Elija el puerto FTP</string>
@@ -312,7 +312,7 @@
     <string name="source_summary">Ver código fuente en Github</string>
     <string name="report_bugs_summary">Informar errores o solicitar nuevas características</string>
     <string name="translate_title">Traducir</string>
-    <string name="translate_summary">Traducir Amaze a tu idioma</string>
+    <string name="translate_summary">Traducir Full File Manager a tu idioma</string>
     <string name="paypal_copy_message">Id de Paypal copiado al portapapeles</string>
     <string name="searching_devices">Buscando dispositivos</string>
     <string name="use_custom_ip">Utilizar IP personalizada</string>
@@ -520,9 +520,9 @@
     <string name="directory">Directorio</string>
 
     <string name="show_bookmarks_pref">Marcadores</string>
-    <string name="cloud_error_plugin">La app "Amaze Cloud plug-in" no pudo ser encontrada. Por favor descargar del Play Store.</string>
+    <string name="cloud_error_plugin">La app "Full File Manager Cloud plug-in" no pudo ser encontrada. Por favor descargar del Play Store.</string>
     <string name="cloud_error_failed_restart">Falló al cargar la conexión.
-       Por favor abra "Amaze Cloud pug-in" y reintente.</string>
+       Por favor abra "Full File Manager Cloud pug-in" y reintente.</string>
     <string name="cloud_remove">Desea eliminar esta conexión?</string>
     <string name="cloud_fail_authenticate">Falló al autenticar</string>
     <string name="cloud_share_copied">Link compartible copiado al portapapeles</string>
@@ -559,8 +559,8 @@
     <string name="preference_newstack_summary">Te permite abrir archivos en tareas independientes. Accede a ellas desde la pantalla recientes del sistema.</string>
     <string name="developers">Desarrolladores</string>
     <string name="no_bitcoin_app">Por favor instala un monedero de Bitcoins</string>
-    <string name="channel_name_normal">Notificaciones de Amaze</string>
-    <string name="channel_description_normal">Las notificaciones del explorador de archivos Amaze</string>
+    <string name="channel_name_normal">Notificaciones de Full File Manager</string>
+    <string name="channel_description_normal">Las notificaciones del explorador de archivos Full File Manager</string>
     <string name="channel_name_ftp">Servidor FTP de Amaze</string>
     <string name="channel_description_ftp">Notificaciones del servidor FTP del administrador de archivos Amaze</string>
 

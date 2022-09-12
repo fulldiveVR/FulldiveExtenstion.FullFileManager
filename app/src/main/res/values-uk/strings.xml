@@ -22,7 +22,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Файловий менеджер Amaze</string>
+    <string name="app_name">Файловий менеджер Full File Manager</string>
     <string name="drawer_open">Відкрити меню навігації</string>
     <string name="drawer_close">Закрити меню навігації</string>
     <string name="icon">іконка</string>
@@ -158,7 +158,7 @@
     <string name="miscellaneous">Інше</string>
     <string name="root_pref_summary">Відображати дозволи для файлів і тек</string>
     <string name="root_pref">Відображати дозволи</string>
-    <string name="about_amaze_file_manager_label">Про Amaze File Manager</string>
+    <string name="about_amaze_file_manager_label">Про Full File Manager</string>
     <string name="version">Версія</string>
     <string name="rate">Оцініть додаток</string>
     <string name="feedback">Відправити відгук</string>
@@ -299,7 +299,7 @@
     <string name="invalid">Неприпустимий %s</string>
     <string name="ftp_notif_starting">FTP Server запускається</string>
     <string name="ftp_notif_starting_title">FTP Сервер</string>
-    <string name="ftp_notif_title">Amaze FTP Сервер працює</string>
+    <string name="ftp_notif_title">Full File Manager FTP Сервер працює</string>
     <string name="ftp_notif_text">на %s</string>
     <string name="ftp_notif_stop_server">ЗУПИНИТИ</string>
     <string name="ftp_port_edit_menu_title">Вибрати порт FTP</string>
@@ -313,7 +313,7 @@
     <string name="source_summary">Переглянути вихідний код на GitHub</string>
     <string name="report_bugs_summary">Повідомляти про помилки або запитати нову функцію</string>
     <string name="translate_title">Перекласти</string>
-    <string name="translate_summary">Перекласти Amaze вашою мовою</string>
+    <string name="translate_summary">Перекласти Full File Manager вашою мовою</string>
     <string name="paypal_copy_message">PayPal id скопійовано до буфера обміну</string>
     <string name="searching_devices">Пошук пристроїв</string>
     <string name="use_custom_ip">Використовувати користувацьку IP</string>
@@ -520,7 +520,7 @@
 
     <string name="show_bookmarks_pref">Закладки</string>
     <string name="cloud_error_plugin">Плагін для цієї хмари не знайдено. Будь ласка, завантажити з Play Store.</string>
-    <string name="cloud_error_failed_restart">Помилка завантаження. Будь ласка, выдкрийте Amaze Cloud. </string>
+    <string name="cloud_error_failed_restart">Помилка завантаження. Будь ласка, выдкрийте Full File Manager Cloud. </string>
     <string name="cloud_remove">Ви хочете видалити підключення до хмари?</string>
     <string name="cloud_fail_authenticate">Не вдалося здійснити автентифікацію</string>
     <string name="cloud_share_copied">Це посилання зкопійовано до буфера обміну</string>
@@ -557,10 +557,10 @@
     <string name="preference_newstack_summary">Дозволяє відкривати файли в окремих завданнях. Доступ до них із екрана програм.</string>
     <string name="developers">Розробники</string>
     <string name="no_bitcoin_app">Будь ласка, встановіть застосунок Bitcoin Wallet</string>
-    <string name="channel_name_normal">Сповіщення Amaze</string>
-    <string name="channel_description_normal">Сповіщення файлового менеджнеру Amaze</string>
-    <string name="channel_name_ftp">Amaze FTP сервер</string>
-    <string name="channel_description_ftp">Сповіщення FTP серверу файлового менеджнеру Amaze</string>
+    <string name="channel_name_normal">Сповіщення Full File Manager</string>
+    <string name="channel_description_normal">Сповіщення файлового менеджнеру Full File Manager</string>
+    <string name="channel_name_ftp">Full File Manager FTP сервер</string>
+    <string name="channel_description_ftp">Сповіщення FTP серверу файлового менеджнеру Full File Manager</string>
 
     <string name="processing">Обробка&#8230;</string>
     <string name="failed_no_connection">Збій завантаження файлів. Будь ласка, перевірте з\'єднання.</string>
@@ -577,7 +577,7 @@
     <string name="ssh_authentication_failure_key">Помилка входу: Неможливо виконати автентифікацію за допомогою наданого імені користувача та приватного ключа.</string>
     <string name="ssh_connect_failed">Не вдалось з\'єднання до %1$s:%2$d:%3$s</string>
     <string name="ssh_connect_failed_host_key_changed_title">ПОПЕРЕДЖЕННЯ: ДИСТАНЦІЙНУ ІДЕНТИФІКАЦІЮ ЗМІНЕНО!</string>
-    <string name="ssh_connect_failed_host_key_changed_message">МОЖЛИВО, ЩО У ВАС НЕПРИЄМНОСТІ!\n\nХтось може підслуховувати вас прямо зараз (атака \"людина посередині\")! Також можливо, що ключ хосту щойно змінено. Відбиток пальця для відкритого ключа, надісланого віддаленим хостом, не відповідає такому, що зберігається у Amaze.\n\nЗверніться до свого системного адміністратора або налаштуйте нове з’єднання, щоб продовжити підключення до сервера.</string>
+    <string name="ssh_connect_failed_host_key_changed_message">МОЖЛИВО, ЩО У ВАС НЕПРИЄМНОСТІ!\n\nХтось може підслуховувати вас прямо зараз (атака \"людина посередині\")! Також можливо, що ключ хосту щойно змінено. Відбиток пальця для відкритого ключа, надісланого віддаленим хостом, не відповідає такому, що зберігається у Full File Manager.\n\nЗверніться до свого системного адміністратора або налаштуйте нове з’єднання, щоб продовжити підключення до сервера.</string>
     <string name="ssh_key_prompt_passphrase">Введіть ключову фразу.</string>
     <string name="add_shortcut_not_supported_by_launcher">Створення ярликів не підтримується вашою панеллю запуску.</string>
     
@@ -619,7 +619,7 @@
     <string name="donation_thanks">Дякую за вашу підтримку, це мотивує нас! (:</string>
     <string name="archive_password_prompt">Будь ласка, введіть пароль до архіву:</string>
     <string name="close">Закрити</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">МОЖЛИВО, ЩО У ВАС НЕПРИЄМНОСТІ!\n\nХтось може підслуховувати вас прямо зараз (атака \"людина посередині\")! Також можливо, що ключ хосту щойно змінено. Відбиток пальця для відкритого ключа, надісланого віддаленим хостом, не відповідає такому, що зберігається у Amaze.\n\nВи можете продовжити оновлення відбитка хоста або скасувати оновлення налаштувань з’єднання SSH.</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">МОЖЛИВО, ЩО У ВАС НЕПРИЄМНОСТІ!\n\nХтось може підслуховувати вас прямо зараз (атака \"людина посередині\")! Також можливо, що ключ хосту щойно змінено. Відбиток пальця для відкритого ключа, надісланого віддаленим хостом, не відповідає такому, що зберігається у Full File Manager.\n\nВи можете продовжити оновлення відбитка хоста або скасувати оновлення налаштувань з’єднання SSH.</string>
     <string name="failed_install_apk">Помилка інсталяції</string>
 
     <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
