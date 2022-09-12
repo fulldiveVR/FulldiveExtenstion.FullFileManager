@@ -591,7 +591,7 @@
     <string name="close">關閉</string>
     <string name="bookmark_exists">條書籤已經喺度啦喎</string>
     <string name="hide_media">從媒體瀏覽器中隱藏</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">可能有人有不軌企圖！\n\n伺服器派出嚟公鑰嘅指紋同 Amaze記住嘅唔同。可能有人勾緊線（中間人攻擊）！不過都可能咁啱伺服器換咗條 key啫。\n\n你可以選擇更新伺服器公鑰嘅指紋，或者取消更新 SSH連線設定。</string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">可能有人有不軌企圖！\n\n伺服器派出嚟公鑰嘅指紋同 Full File Manager記住嘅唔同。可能有人勾緊線（中間人攻擊）！不過都可能咁啱伺服器換咗條 key啫。\n\n你可以選擇更新伺服器公鑰嘅指紋，或者取消更新 SSH連線設定。</string>
     <string name="update_host_key">更新伺服器公鑰</string>
     <string name="cancel_recommended">取消（建議）</string>
     <string name="failed_install_apk">隻 app裝唔到</string>
@@ -638,7 +638,7 @@
     <string name="clear_open_file_summary">清除預設要使用嘅程式選擇</string>
     <string name="ftp_readonly">唯讀模式</string>
     <string name="legacy_listing_title">喺 Root模式使用舊有方式列出文件</string>
-    <string name="legacy_listing_summary">開啟呢個設定嘅話，Amaze會用番原有嘅方法列出文件</string>
+    <string name="legacy_listing_summary">開啟呢個設定嘅話，Full File Manager會用番原有嘅方法列出文件</string>
     <string name="error_unsupported_v5_rar">RAR 壓縮檔 \"%s\" 係未能支援嘅 RAR v5壓縮檔。</string>
     <string name="ftp_prompt_restart_server">要使設定生效，請重新啟動 FTP伺服器</string>
     <string name="error_permission_denied">拒絕存取</string>
