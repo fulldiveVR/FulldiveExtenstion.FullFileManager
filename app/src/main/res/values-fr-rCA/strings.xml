@@ -477,7 +477,7 @@
   <string name="show_quick_access_pref">Accès rapide</string>
   <string name="directory">Répertoires</string>
   <string name="cloud_error_plugin">Le plugin Full File Manager Cloud est introuvable. Télécharger le sur le Play Store.</string>
-  <string name="cloud_error_failed_restart">Échec de chargement de la connexion.         S’il vous plaît ouvrez Amaze Cloud une fois.</string>
+  <string name="cloud_error_failed_restart">Échec de chargement de la connexion.         S’il vous plaît ouvrez Full File Manager Cloud une fois.</string>
   <string name="cloud_remove">Voulez-vous supprimer la connexion Cloud ?</string>
   <string name="cloud_fail_authenticate">Échec de l\'authentification</string>
   <string name="cloud_share_copied">Lien partageable copiée dans le presse-papiers</string>
