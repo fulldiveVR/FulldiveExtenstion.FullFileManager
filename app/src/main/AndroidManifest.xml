@@ -53,8 +53,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         tools:replace="android:label"
         android:label="@string/appbar_name"
-        android:requestLegacyExternalStorage="true"
-        android:banner="@drawable/about_header">
+        android:requestLegacyExternalStorage="true">
 
         <activity
             android:label="@string/appbar_name"

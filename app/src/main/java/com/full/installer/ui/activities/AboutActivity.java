@@ -117,23 +117,23 @@ public class AboutActivity extends ThemedActivity implements View.OnClickListene
 
     switchIcons();
 
-    Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.about_header);
-
-    // It will generate colors based on the image in an AsyncTask.
-    Palette.from(bitmap)
-        .generate(
-            palette -> {
-              int mutedColor =
-                  palette.getMutedColor(Utils.getColor(AboutActivity.this, R.color.primary_blue));
-              int darkMutedColor =
-                  palette.getDarkMutedColor(
-                      Utils.getColor(AboutActivity.this, R.color.primary_blue));
-              mCollapsingToolbarLayout.setContentScrimColor(mutedColor);
-              mCollapsingToolbarLayout.setStatusBarScrimColor(darkMutedColor);
-              if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                getWindow().setStatusBarColor(darkMutedColor);
-              }
-            });
+//    Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.about_header);
+//
+//    // It will generate colors based on the image in an AsyncTask.
+//    Palette.from(bitmap)
+//        .generate(
+//            palette -> {
+//              int mutedColor =
+//                  palette.getMutedColor(Utils.getColor(AboutActivity.this, R.color.primary_blue));
+//              int darkMutedColor =
+//                  palette.getDarkMutedColor(
+//                      Utils.getColor(AboutActivity.this, R.color.primary_blue));
+//              mCollapsingToolbarLayout.setContentScrimColor(mutedColor);
+//              mCollapsingToolbarLayout.setStatusBarScrimColor(darkMutedColor);
+//              if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+//                getWindow().setStatusBarColor(darkMutedColor);
+//              }
+//            });
 
     mAppBarLayout.addOnOffsetChangedListener(
         (appBarLayout, verticalOffset) -> {

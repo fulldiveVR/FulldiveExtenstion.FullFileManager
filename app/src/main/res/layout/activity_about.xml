@@ -24,7 +24,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/about_header"
+                android:src="@mipmap/ic_launcher"
                 app:layout_collapseMode="parallax"
                 android:scaleType="centerCrop"
                 android:fitsSystemWindows="true"

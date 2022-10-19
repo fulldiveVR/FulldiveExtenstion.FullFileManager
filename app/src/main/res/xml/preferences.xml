@@ -47,17 +47,7 @@
         app:key="security"
         app:summary="@string/security_summary"
         app:title="@string/security" />
-    <Preference
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:icon="@drawable/ic_preference_info"
-        app:key="about"
-        app:title="@string/about_amaze_file_manager_label" />
-    <Preference
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:key="feedback"
-        app:title="@string/feedback" />
+
     <Preference
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

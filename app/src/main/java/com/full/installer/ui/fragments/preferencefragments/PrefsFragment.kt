@@ -20,14 +20,9 @@
 
 package com.full.installer.ui.fragments.preferencefragments
 
-import android.content.Intent
-import android.content.pm.PackageManager
 import android.os.Bundle
-import android.widget.Toast
 import androidx.preference.Preference
 import com.full.installer.R
-import com.full.installer.ui.activities.AboutActivity
-import com.full.installer.utils.Utils
 import com.fulldive.startapppopups.PopupManager
 import com.fulldive.startapppopups.donation.DonationManager
 
@@ -61,51 +56,16 @@ class PrefsFragment : BasePrefsFragment() {
                 true
             }
 
-        findPreference<Preference>("about")?.onPreferenceClickListener =
-            Preference.OnPreferenceClickListener {
-                startActivity(Intent(activity, AboutActivity::class.java))
-                false
-            }
-
         findPreference<Preference>("supportus")?.onPreferenceClickListener =
             Preference.OnPreferenceClickListener {
                 DonationManager.purchaseFromSettings(
                     activity,
                     onPurchased = {
-
-                        PopupManager().showDonationSuccess(activity)//TODO:XXX
+                        PopupManager().showDonationSuccess(activity)
                     }
                 )
 
                 false
             }
-
-        findPreference<Preference>("feedback")
-            ?.onPreferenceClickListener = Preference.OnPreferenceClickListener {
-            val emailIntent = Utils.buildEmailIntent(requireContext(), null, Utils.EMAIL_SUPPORT)
-
-            val activities = activity.packageManager.queryIntentActivities(
-                emailIntent,
-                PackageManager.MATCH_DEFAULT_ONLY
-            )
-
-            if (activities.isNotEmpty()) {
-                startActivity(
-                    Intent.createChooser(
-                        emailIntent,
-                        resources.getString(R.string.feedback)
-                    )
-                )
-            } else {
-                Toast.makeText(
-                    getActivity(),
-                    resources.getString(R.string.send_email_to) + " " + Utils.EMAIL_SUPPORT,
-                    Toast.LENGTH_LONG
-                )
-                    .show()
-            }
-
-            false
-        }
     }
 }
