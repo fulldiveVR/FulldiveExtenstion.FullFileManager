@@ -22,8 +22,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.full.installer">
-<!--    package="com.amaze.filemanager">-->
-    <!--    package="com.full.file.manager.top.secure.apk.installer">-->
 
     <permission android:name="${applicationId}.permission.CONTROL_FTP_SERVER"
         android:protectionLevel="dangerous" />

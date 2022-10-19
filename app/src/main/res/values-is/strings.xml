@@ -156,7 +156,7 @@
     <string name="miscellaneous">Ýmislegt</string>
     <string name="root_pref_summary">Sýna heimildir á skrám og möppum</string>
     <string name="root_pref">Sýna aðgangsheimildir</string>
-    <string name="about_amaze_file_manager_label">Um Amaze skráastjórann</string>
+    <string name="about_amaze_file_manager_label">Um Full File Manager skráastjórann</string>
     <string name="version">Útgáfa</string>
     <string name="rate">Gefðu forritinu einkunn</string>
     <string name="feedback">Sendu umsögn</string>
@@ -296,7 +296,7 @@
     <string name="invalid">Ógilt %s</string>
     <string name="ftp_notif_starting">FTP-þjónn er að ræsast</string>
     <string name="ftp_notif_starting_title">FTP-þjónn</string>
-    <string name="ftp_notif_title">Amaze FTP-þjónn er í gangi</string>
+    <string name="ftp_notif_title">Full File Manager FTP-þjónn er í gangi</string>
     <string name="ftp_notif_text">á %s</string>
     <string name="ftp_notif_stop_server">STÖÐVA</string>
     <string name="ftp_port_edit_menu_title">FTP-gátt</string>
@@ -310,7 +310,7 @@
     <string name="source_summary">Skoðaðu grunnkóðann okkar á GitHub</string>
     <string name="report_bugs_summary">Tilkynna villur eða biðja um nýja eiginleika</string>
     <string name="translate_title">Þýða</string>
-    <string name="translate_summary">Þýða Amaze á tungumálið þitt</string>
+    <string name="translate_summary">Þýða Full File Manager á tungumálið þitt</string>
     <string name="paypal_copy_message">Paypal auðkenni afritað á klippispjald</string>
     <string name="searching_devices">Leita að tækjum...</string>
     <string name="use_custom_ip">Nota sérsniðið IP-vistfang</string>
@@ -523,9 +523,9 @@
     <string name="edit_bookmark">Breyta bókamerki</string>
     <string name="question_delete_bookmark">Eyða bókamerki?</string>
 
-    <string name="cloud_error_plugin">Amaze skýjaviðbótin (cloud plugin) fannst ekki. Náðu í hana úr Play Store safninu.</string>
+    <string name="cloud_error_plugin">Full File Manager skýjaviðbótin (cloud plugin) fannst ekki. Náðu í hana úr Play Store safninu.</string>
     <string name="cloud_error_failed_restart">Mistókst að hlaða inn tengingunni.
-        Opnaðu Amaze-skýið einu sinni.</string>
+        Opnaðu Full File Manager-skýið einu sinni.</string>
     <string name="cloud_remove">Ertu viss um að þú viljir fjarlægja skýjatenginguna?</string>
     <string name="cloud_fail_authenticate">Tókst ekki að auðkenna</string>
     <string name="cloud_share_copied">Deilitengill afritaður á klippispjald</string>
@@ -562,10 +562,10 @@
     <string name="preference_newstack_summary">Gerir þér kleift að opna skrár sem aðskilin verk. Þannig er hægt að komast í þau af kerfisskjánum yfir nýleg verk.</string>
     <string name="developers">Forritarar</string>
     <string name="no_bitcoin_app">Endilega settu upp rafmyntaveski</string>
-    <string name="channel_name_normal">Amaze tilkynningar</string>
-    <string name="channel_description_normal">Tilkynningar frá Amaze skráastjóranum</string>
-    <string name="channel_name_ftp">Amaze FTP-þjónn</string>
-    <string name="channel_description_ftp">Tilkynningar frá FTP-þjóni Amaze skráastjórans</string>
+    <string name="channel_name_normal">Full File Manager tilkynningar</string>
+    <string name="channel_description_normal">Tilkynningar frá Full File Manager skráastjóranum</string>
+    <string name="channel_name_ftp">Full File Manager FTP-þjónn</string>
+    <string name="channel_description_ftp">Tilkynningar frá FTP-þjóni Full File Manager skráastjórans</string>
 
     <string name="processing">Í vinnslu&#8230;</string>
     <string name="failed_no_connection">Gat ekki hlaðið inn skrám. Athugaðu hvort allt sé í lagi með nettenginguna.</string>
@@ -582,7 +582,7 @@
     <string name="ssh_authentication_failure_key">Innskráning mistókst: get ekki skráð inn með uppgefnu notandanafni og einkalykli.</string>
     <string name="ssh_connect_failed">Ekki tókst að tengjast %1$s:%2$d: %3$s</string>
     <string name="ssh_connect_failed_host_key_changed_title">AÐVÖRUN: AUÐKENNING HÝSILVÉLAR HEFUR BREYST!</string>
-    <string name="ssh_connect_failed_host_key_changed_message">ÞAÐ ER HUGSANLEGT AÐ EINHVER SÉ AÐ GERA EITTHVAÐ Í LEYNI!\n\nEinhver gæti verið að njósna um þig akkúrat núna (maður-á-milli árás)! Það er líka mögulegt að dulritunarlykli á hýsilvélinni hafi verið breytt. Fingrafar dreifilykilsins sem fjartengda vélin sendi samsvarar ekki því sem Amaze geymir.\n\nHafðu samband við kerfisstjórann þinn eða útbúðu nýja tengingu áður en þú heldur áfram að tengjast þjóninum.    </string>
+    <string name="ssh_connect_failed_host_key_changed_message">ÞAÐ ER HUGSANLEGT AÐ EINHVER SÉ AÐ GERA EITTHVAÐ Í LEYNI!\n\nEinhver gæti verið að njósna um þig akkúrat núna (maður-á-milli árás)! Það er líka mögulegt að dulritunarlykli á hýsilvélinni hafi verið breytt. Fingrafar dreifilykilsins sem fjartengda vélin sendi samsvarar ekki því sem Full File Manager geymir.\n\nHafðu samband við kerfisstjórann þinn eða útbúðu nýja tengingu áður en þú heldur áfram að tengjast þjóninum.    </string>
     <string name="ssh_key_prompt_passphrase">Settu inn aðgangssetningu dulritunarlykilsins.</string>
     <string name="add_shortcut_not_supported_by_launcher">Gerð flýtileiða er ekki studd í ræsinum þínum</string>
     
@@ -634,7 +634,7 @@
     <string name="close">Loka</string>
     <string name="bookmark_exists">Bókamerki er þegar til</string>
     <string name="hide_media">Fela fyrir margmiðlunarvöfrum</string>
-    <string name="ssh_connect_failed_host_key_changed_prompt">ÞAÐ ER HUGSANLEGT AÐ EINHVER SÉ AÐ GERA EITTHVAÐ Í LEYNI!\n\nEinhver gæti verið að njósna um þig akkúrat núna (maður-á-milli árás)! Það er líka mögulegt að dulritunarlykli á hýsilvélinni hafi verið breytt. Fingrafar dreifilykilsins sem fjartengda vélin sendi samsvarar ekki því sem Amaze geymir.\n\nÞú getur haldið áfram að uppfæra fingrafar hýsilvélar eða hætt við að uppfæra stillingar SSH-tengingarinnar.    </string>
+    <string name="ssh_connect_failed_host_key_changed_prompt">ÞAÐ ER HUGSANLEGT AÐ EINHVER SÉ AÐ GERA EITTHVAÐ Í LEYNI!\n\nEinhver gæti verið að njósna um þig akkúrat núna (maður-á-milli árás)! Það er líka mögulegt að dulritunarlykli á hýsilvélinni hafi verið breytt. Fingrafar dreifilykilsins sem fjartengda vélin sendi samsvarar ekki því sem Full File Manager geymir.\n\nÞú getur haldið áfram að uppfæra fingrafar hýsilvélar eða hætt við að uppfæra stillingar SSH-tengingarinnar.    </string>
     <string name="update_host_key">Uppfæra lykil hýsilvélar</string>
     <string name="cancel_recommended">Hætta við (mælt með þessu)</string>
     <string name="failed_install_apk">Mistókst að setja upp</string>

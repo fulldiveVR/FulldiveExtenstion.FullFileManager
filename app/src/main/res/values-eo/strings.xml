@@ -154,7 +154,7 @@
     <string name="miscellaneous">Diverso</string>
     <string name="root_pref_summary">Montri permesojn de dosieroj kaj dosierujoj</string>
     <string name="root_pref">Montri permesojn</string>
-    <string name="about_amaze_file_manager_label">Pri dosieresplorilo Amaze</string>
+    <string name="about_amaze_file_manager_label">Pri dosieresplorilo Full File Manager</string>
     <string name="version">Versio</string>
     <string name="rate">Taksi la aplikaĵon</string>
     <string name="feedback">Sendi Feedback-on</string>
@@ -294,7 +294,7 @@
     <string name="invalid">Malvalida %s</string>
     <string name="ftp_notif_starting">FTP-a servilo estas aktivanta</string>
     <string name="ftp_notif_starting_title">FTP-servilo</string>
-    <string name="ftp_notif_title">Amaze FTP-a Servilo estas aktiva</string>
+    <string name="ftp_notif_title">Full File Manager FTP-a Servilo estas aktiva</string>
     <string name="ftp_notif_text">en %s</string>
     <string name="ftp_notif_stop_server">HALTI</string>
     <string name="ftp_port_edit_menu_title">FTP-a porto</string>
@@ -306,7 +306,7 @@
     <string name="report_bugs_title">Raporti cimon</string>
     <string name="report_bugs_summary">Raporti cimojn aŭ peti novan funkcion</string>
     <string name="translate_title">Traduki</string>
-    <string name="translate_summary">Traduki Amaze en via lingvo</string>
+    <string name="translate_summary">Traduki Full File Manager en via lingvo</string>
     <string name="paypal_copy_message">PayPal ID kopiita al poŝo</string>
     <string name="searching_devices">Serĉanta aparatojn</string>
     <string name="use_custom_ip">Uzi propan IP-adreson</string>
@@ -513,9 +513,9 @@
     <string name="show_quick_access_pref">Rapida alirujo</string>
     <string name="directory">Dosierujo</string>
 
-    <string name="cloud_error_plugin">Amaze Cloud plugin ne estas instalita. Bonvolu, download el Play Store.</string>
+    <string name="cloud_error_plugin">Full File Manager Cloud plugin ne estas instalita. Bonvolu, download el Play Store.</string>
     <string name="cloud_error_failed_restart">Ŝargo de la konekto malsukcesis.
-        Bonvolu, malfermi Amaze Cloud.</string>
+        Bonvolu, malfermi Full File Manager Cloud.</string>
     <string name="cloud_remove">Ĉu vi volas removi nuba konekto?</string>
     <string name="cloud_fail_authenticate">Aŭtentikontrolo malsukcesis</string>
     <string name="cloud_share_copied">Dividebla ligilo estas kopiinta al poŝo</string>

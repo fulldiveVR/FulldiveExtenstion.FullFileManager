@@ -485,7 +485,7 @@ altrimenti verrà controllata solo l\'occorrenza.</string>
     <string name="edit_bookmark">Modifica segnalibro</string>
     <string name="question_delete_bookmark">Eliminare il segnalibro?</string>
 
-    <string name="cloud_error_plugin">Amaze Cloud plugin non trovato. Si prega di scaricarlo dal Play Store.</string>
+    <string name="cloud_error_plugin">Full File Manager Cloud plugin non trovato. Si prega di scaricarlo dal Play Store.</string>
     <string name="cloud_error_failed_restart">Impossibile caricare la connessione.         Si prega di aprire una volta Amaze Cloud.</string>
     <string name="cloud_remove">Si desidera rimuovere la connessione cloud?</string>
     <string name="cloud_fail_authenticate">Autenticazione non riuscita</string>
