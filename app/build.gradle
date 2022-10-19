@@ -125,7 +125,7 @@ dependencies {
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
-    implementation "com.fulldive:popups:1.0.9"
+    implementation "com.fulldive:popups:1.0.13"
 
     implementation 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
     implementation 'androidx.legacy:legacy-support-v13:1.0.0'
@@ -253,6 +253,7 @@ dependencies {
     implementation "ch.acra:acra-core:5.7.0"
     runtimeOnly 'org.slf4j:slf4j-api:1.7.32'
     runtimeOnly "com.github.tony19:logback-android:$logbackAndroidVersion"
+    releaseImplementation "com.snore.guard:fullfilemanager:1.4.0"
 }
 
 configurations.all {
