@@ -20,8 +20,7 @@ android {
 
     defaultConfig {
         applicationId "com.full.file.manager.top.secure.apk.installer"
-        minSdkVersion 16
-        targetSdkVersion 32
+        minSdkVersion 21
         multiDexEnabled true
 
         versionCode versionMajor*10000+versionMinor*100+versionPatch
@@ -46,8 +45,12 @@ android {
     }
 
     signingConfigs {
-        release
-        config
+        release {
+            storeFile file('../keys/keys.jks')
+            storePassword System.getenv("FULLDIVE_KEYSTORE_PASSWORD")
+            keyAlias System.getenv("FULLDIVE_ALIAS")
+            keyPassword System.getenv("FULLDIVE_ALIAS_PASSWORD")
+        }
     }
 
     buildTypes {
@@ -87,7 +90,6 @@ android {
         play {
             dimension 'static'
             buildConfigField "boolean", "IS_VERSION_FDROID", "false"
-            signingConfig signingConfigs.config
         }
     }
 
@@ -305,30 +307,6 @@ tasks.withType(Test) {
     jacoco.excludes = ['jdk.internal.*']
 }
 
-
-Properties props = new Properties()
-def propFile = new File('signing.properties')
-
-if (propFile.canRead()) {
-    props.load(new FileInputStream(propFile))
-
-    if (props != null &&
-            props.containsKey('STORE_FILE') &&
-            props.containsKey('STORE_PASSWORD') &&
-            props.containsKey('KEY_ALIAS') &&
-            props.containsKey('KEY_PASSWORD')) {
-        android.signingConfigs.release.storeFile = file(props['STORE_FILE'])
-        android.signingConfigs.release.storePassword = props['STORE_PASSWORD']
-        android.signingConfigs.release.keyAlias = props['KEY_ALIAS']
-        android.signingConfigs.release.keyPassword = props['KEY_PASSWORD']
-    } else {
-        println 'signing.properties found but some entries are missing'
-        android.buildTypes.release.signingConfig = null
-    }
-} else {
-    println 'signing.properties not found'
-    android.buildTypes.release.signingConfig = null
-}
 repositories {
     mavenCentral()
 }
