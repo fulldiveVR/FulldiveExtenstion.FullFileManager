@@ -20,8 +20,7 @@ android {
 
     defaultConfig {
         applicationId "com.full.file.manager.top.secure.apk.installer"
-        minSdkVersion 16
-       // targetSdkVersion 32
+        minSdkVersion 21
         multiDexEnabled true
 
         versionCode versionMajor*10000+versionMinor*100+versionPatch
@@ -46,8 +45,12 @@ android {
     }
 
     signingConfigs {
-        release
-        config
+        release {
+            storeFile file('../keys/keys.jks')
+            storePassword System.getenv("FULLDIVE_KEYSTORE_PASSWORD")
+            keyAlias System.getenv("FULLDIVE_ALIAS")
+            keyPassword System.getenv("FULLDIVE_ALIAS_PASSWORD")
+        }
     }
 
     buildTypes {
@@ -87,7 +90,6 @@ android {
         play {
             dimension 'static'
             buildConfigField "boolean", "IS_VERSION_FDROID", "false"
-            signingConfig signingConfigs.config
         }
     }
 

@@ -47,7 +47,6 @@ import com.full.installer.filesystem.files.FileUtils;
 import com.full.installer.ui.activities.AboutActivity;
 import com.full.installer.ui.activities.MainActivity;
 import com.full.installer.ui.activities.PreferencesActivity;
-import com.full.installer.ui.activities.UtilitiesAliasActivity;
 import com.full.installer.ui.dialogs.GeneralDialogCreation;
 import com.full.installer.ui.fragments.AppsListFragment;
 import com.full.installer.ui.fragments.CloudSheetFragment;
@@ -524,53 +523,53 @@ public class Drawer implements NavigationView.OnNavigationItemSelectedListener {
             R.drawable.ic_ftp_white_24dp,
             null);
 
-        addNewItem(
-            menu,
-            LASTGROUP,
-            order++,
-            R.string.wifip2p,
-            new MenuMetadata(
-                () -> {
-                    boolean isAUInstalled =
-                        PackageUtils.Companion.appInstalledOrNot(
-                            AboutActivity.PACKAGE_AMAZE_UTILS, mainActivity.getPackageManager());
-                    if (isAUInstalled) {
-                        try {
-                            Utils.openURL("amaze://teamamaze.xyz/transfer", mainActivity);
-                        } catch (ActivityNotFoundException e) {
-                            mainActivity.startActivity(
-                                new Intent(mainActivity, UtilitiesAliasActivity.class));
-                        }
-                    } else {
-                        mainActivity.startActivity(new Intent(mainActivity, UtilitiesAliasActivity.class));
-                    }
-                }),
-            R.drawable.ic_round_connect_without_contact_24,
-            null);
+//        addNewItem(
+//            menu,
+//            LASTGROUP,
+//            order++,
+//            R.string.wifip2p,
+//            new MenuMetadata(
+//                () -> {
+//                    boolean isAUInstalled =
+//                        PackageUtils.Companion.appInstalledOrNot(
+//                            AboutActivity.PACKAGE_AMAZE_UTILS, mainActivity.getPackageManager());
+//                    if (isAUInstalled) {
+//                        try {
+//                            Utils.openURL("amaze://teamamaze.xyz/transfer", mainActivity);
+//                        } catch (ActivityNotFoundException e) {
+//                            mainActivity.startActivity(
+//                                new Intent(mainActivity, UtilitiesAliasActivity.class));
+//                        }
+//                    } else {
+//                        mainActivity.startActivity(new Intent(mainActivity, UtilitiesAliasActivity.class));
+//                    }
+//                }),
+//            R.drawable.ic_round_connect_without_contact_24,
+//            null);
 
-        addNewItem(
-            menu,
-            LASTGROUP,
-            order++,
-            R.string.analyse_storage,
-            new MenuMetadata(
-                () -> {
-                    boolean isAUInstalled =
-                        PackageUtils.Companion.appInstalledOrNot(
-                            AboutActivity.PACKAGE_AMAZE_UTILS, mainActivity.getPackageManager());
-                    if (isAUInstalled) {
-                        try {
-                            Utils.openURL("amaze://teamamaze.xyz/analyse", mainActivity);
-                        } catch (ActivityNotFoundException e) {
-                            mainActivity.startActivity(
-                                new Intent(mainActivity, UtilitiesAliasActivity.class));
-                        }
-                    } else {
-                        mainActivity.startActivity(new Intent(mainActivity, UtilitiesAliasActivity.class));
-                    }
-                }),
-            R.drawable.ic_round_analytics_24,
-            null);
+//        addNewItem(
+//            menu,
+//            LASTGROUP,
+//            order++,
+//            R.string.analyse_storage,
+//            new MenuMetadata(
+//                () -> {
+//                    boolean isAUInstalled =
+//                        PackageUtils.Companion.appInstalledOrNot(
+//                            AboutActivity.PACKAGE_AMAZE_UTILS, mainActivity.getPackageManager());
+//                    if (isAUInstalled) {
+//                        try {
+//                            Utils.openURL("amaze://teamamaze.xyz/analyse", mainActivity);
+//                        } catch (ActivityNotFoundException e) {
+//                            mainActivity.startActivity(
+//                                new Intent(mainActivity, UtilitiesAliasActivity.class));
+//                        }
+//                    } else {
+//                        mainActivity.startActivity(new Intent(mainActivity, UtilitiesAliasActivity.class));
+//                    }
+//                }),
+//            R.drawable.ic_round_analytics_24,
+//            null);
 
         addNewItem(
             menu,
