@@ -8,7 +8,7 @@
         android:shortcutLongLabel="@string/quick"
         android:shortcutShortLabel="@string/quick">
         <intent
-            android:action="android.intent.action.VIEW"
+            android:action="com.amaze.filemanager.openQuickAccess"
             android:targetClass="com.full.installer.ui.activities.MainActivity"
             android:targetPackage="com.full.file.manager.top.secure.apk.installer" />
     </shortcut>
